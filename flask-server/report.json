@@ -1,0 +1,4620 @@
+{
+  "id": "1766b8c9-871d-4c77-b907-efcd8f2f190f",
+  "name": null,
+  "timestamp": "2024-03-22T23:26:46.046633",
+  "metadata": {
+    "metric_presets": [
+      "DataQualityPreset"
+    ]
+  },
+  "tags": [],
+  "suite": {
+    "metrics": [
+      {
+        "type": "evidently.metrics.data_integrity.dataset_summary_metric.DatasetSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "almost_duplicated_threshold": 0.95,
+        "almost_constant_threshold": 0.95
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Rotational_speed_rpm",
+          "display_name": "Rotational_speed_rpm",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Tool_wear_min",
+          "display_name": "Tool_wear_min",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Temperature_difference",
+          "display_name": "Temperature_difference",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Temperature_power",
+          "display_name": "Temperature_power",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Power_wear",
+          "display_name": "Power_wear",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Air_temperature_K",
+          "display_name": "Air_temperature_K",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Process_temperature_K",
+          "display_name": "Process_temperature_K",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Torque_Nm",
+          "display_name": "Torque_Nm",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Power",
+          "display_name": "Power",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Type_M",
+          "display_name": "Type_M",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "column_name": {
+          "type": "evidently.base_metric.ColumnName",
+          "name": "Type_L",
+          "display_name": "Type_L",
+          "dataset": "main",
+          "feature_class": null
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.dataset_missing_values_metric.DatasetMissingValuesMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        },
+        "missing_values": [
+          "",
+          -Infinity,
+          null,
+          Infinity
+        ]
+      },
+      {
+        "type": "evidently.metrics.data_quality.dataset_correlations_metric.DatasetCorrelationsMetric",
+        "options": {
+          "color": null,
+          "render": null,
+          "custom": {}
+        }
+      }
+    ],
+    "metric_results": [
+      {
+        "type": "evidently.metrics.data_integrity.dataset_summary_metric.DatasetSummaryMetricResult",
+        "almost_duplicated_threshold": 0.95,
+        "current": {
+          "type": "evidently.metrics.data_integrity.dataset_summary_metric.DatasetSummary",
+          "target": null,
+          "prediction": null,
+          "date_column": null,
+          "id_column": null,
+          "number_of_columns": 11,
+          "number_of_rows": 1000,
+          "number_of_missing_values": 0,
+          "number_of_categorical_columns": 0,
+          "number_of_numeric_columns": 11,
+          "number_of_text_columns": 0,
+          "number_of_datetime_columns": 0,
+          "number_of_constant_columns": 0,
+          "number_of_almost_constant_columns": 0,
+          "number_of_duplicated_columns": 0,
+          "number_of_almost_duplicated_columns": 0,
+          "number_of_empty_rows": 0,
+          "number_of_empty_columns": 0,
+          "number_of_duplicated_rows": 0,
+          "columns_type_data": {
+            "Air_temperature_K": {
+              "dtype": "float64"
+            },
+            "Process_temperature_K": {
+              "dtype": "float64"
+            },
+            "Rotational_speed_rpm": {
+              "dtype": "float64"
+            },
+            "Torque_Nm": {
+              "dtype": "float64"
+            },
+            "Tool_wear_min": {
+              "dtype": "float64"
+            },
+            "Power": {
+              "dtype": "float64"
+            },
+            "Power_wear": {
+              "dtype": "float64"
+            },
+            "Temperature_difference": {
+              "dtype": "float64"
+            },
+            "Temperature_power": {
+              "dtype": "float64"
+            },
+            "Type_L": {
+              "dtype": "int64"
+            },
+            "Type_M": {
+              "dtype": "int64"
+            }
+          },
+          "nans_by_columns": {
+            "Air_temperature_K": 0,
+            "Process_temperature_K": 0,
+            "Rotational_speed_rpm": 0,
+            "Torque_Nm": 0,
+            "Tool_wear_min": 0,
+            "Power": 0,
+            "Power_wear": 0,
+            "Temperature_difference": 0,
+            "Temperature_power": 0,
+            "Type_L": 0,
+            "Type_M": 0
+          },
+          "number_uniques_by_columns": {
+            "Air_temperature_K": 87,
+            "Process_temperature_K": 74,
+            "Rotational_speed_rpm": 477,
+            "Torque_Nm": 377,
+            "Tool_wear_min": 225,
+            "Power": 987,
+            "Power_wear": 985,
+            "Temperature_difference": 45,
+            "Temperature_power": 999,
+            "Type_L": 2,
+            "Type_M": 2
+          }
+        },
+        "reference": {
+          "type": "evidently.metrics.data_integrity.dataset_summary_metric.DatasetSummary",
+          "target": null,
+          "prediction": null,
+          "date_column": null,
+          "id_column": null,
+          "number_of_columns": 11,
+          "number_of_rows": 1000,
+          "number_of_missing_values": 0,
+          "number_of_categorical_columns": 0,
+          "number_of_numeric_columns": 11,
+          "number_of_text_columns": 0,
+          "number_of_datetime_columns": 0,
+          "number_of_constant_columns": 0,
+          "number_of_almost_constant_columns": 0,
+          "number_of_duplicated_columns": 0,
+          "number_of_almost_duplicated_columns": 0,
+          "number_of_empty_rows": 0,
+          "number_of_empty_columns": 0,
+          "number_of_duplicated_rows": 0,
+          "columns_type_data": {
+            "Air_temperature_K": {
+              "dtype": "float64"
+            },
+            "Process_temperature_K": {
+              "dtype": "float64"
+            },
+            "Rotational_speed_rpm": {
+              "dtype": "float64"
+            },
+            "Torque_Nm": {
+              "dtype": "float64"
+            },
+            "Tool_wear_min": {
+              "dtype": "float64"
+            },
+            "Power": {
+              "dtype": "float64"
+            },
+            "Power_wear": {
+              "dtype": "float64"
+            },
+            "Temperature_difference": {
+              "dtype": "float64"
+            },
+            "Temperature_power": {
+              "dtype": "float64"
+            },
+            "Type_L": {
+              "dtype": "int64"
+            },
+            "Type_M": {
+              "dtype": "int64"
+            }
+          },
+          "nans_by_columns": {
+            "Air_temperature_K": 0,
+            "Process_temperature_K": 0,
+            "Rotational_speed_rpm": 0,
+            "Torque_Nm": 0,
+            "Tool_wear_min": 0,
+            "Power": 0,
+            "Power_wear": 0,
+            "Temperature_difference": 0,
+            "Temperature_power": 0,
+            "Type_L": 0,
+            "Type_M": 0
+          },
+          "number_uniques_by_columns": {
+            "Air_temperature_K": 85,
+            "Process_temperature_K": 70,
+            "Rotational_speed_rpm": 457,
+            "Torque_Nm": 368,
+            "Tool_wear_min": 229,
+            "Power": 989,
+            "Power_wear": 987,
+            "Temperature_difference": 45,
+            "Temperature_power": 998,
+            "Type_L": 2,
+            "Type_M": 2
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Rotational_speed_rpm",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.21,
+          "std": 0.1,
+          "min": 0.03,
+          "p25": 0.15,
+          "p50": 0.19,
+          "p75": 0.25,
+          "max": 0.89,
+          "unique": 457,
+          "unique_percentage": 45.7,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.17113,
+          "most_common_percentage": 0.9
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.22,
+          "std": 0.1,
+          "min": 0.01,
+          "p25": 0.15,
+          "p50": 0.2,
+          "p75": 0.26,
+          "max": 0.96,
+          "unique": 477,
+          "unique_percentage": 47.7,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.18102,
+          "most_common_percentage": 1.0
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.00756694,
+                0.06072953222222222,
+                0.11389212444444444,
+                0.16705471666666666,
+                0.22021730888888888,
+                0.2733799011111111,
+                0.32654249333333335,
+                0.3797050855555556,
+                0.4328676777777778,
+                0.48603027,
+                0.5391928622222222,
+                0.5923554544444445,
+                0.6455180466666667,
+                0.6986806388888889,
+                0.7518432311111112,
+                0.8050058233333334,
+                0.8581684155555556,
+                0.9113310077777778
+              ],
+              "count": [
+                11,
+                88,
+                248,
+                258,
+                179,
+                106,
+                45,
+                32,
+                16,
+                3,
+                4,
+                1,
+                2,
+                3,
+                2,
+                1,
+                0,
+                1
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.00756694,
+                0.06072953222222222,
+                0.11389212444444444,
+                0.16705471666666666,
+                0.22021730888888888,
+                0.2733799011111111,
+                0.32654249333333335,
+                0.3797050855555556,
+                0.4328676777777778,
+                0.48603027,
+                0.5391928622222222,
+                0.5923554544444445,
+                0.6455180466666667,
+                0.6986806388888889,
+                0.7518432311111112,
+                0.8050058233333334,
+                0.8581684155555556,
+                0.9113310077777778
+              ],
+              "count": [
+                8,
+                98,
+                253,
+                275,
+                171,
+                107,
+                38,
+                21,
+                10,
+                4,
+                4,
+                5,
+                2,
+                0,
+                0,
+                1,
+                3,
+                0
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.1210797096391754,
+                -1.9807211056510852,
+                -1.840362501662995,
+                -1.7000038976749048,
+                -1.5596452936868146,
+                -1.4192866896987244,
+                -1.278928085710634,
+                -1.1385694817225438,
+                -0.9982108777344536,
+                -0.8578522737463634,
+                -0.7174936697582732,
+                -0.577135065770183,
+                -0.4367764617820926,
+                -0.2964178577940024,
+                -0.15605925380591223
+              ],
+              "count": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                3,
+                13,
+                42,
+                135,
+                280,
+                284,
+                168,
+                57,
+                9,
+                7
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.1210797096391754,
+                -1.9807211056510852,
+                -1.840362501662995,
+                -1.7000038976749048,
+                -1.5596452936868146,
+                -1.4192866896987244,
+                -1.278928085710634,
+                -1.1385694817225438,
+                -0.9982108777344536,
+                -0.8578522737463634,
+                -0.7174936697582732,
+                -0.577135065770183,
+                -0.4367764617820926,
+                -0.2964178577940024,
+                -0.15605925380591223
+              ],
+              "count": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                3,
+                11,
+                49,
+                139,
+                288,
+                282,
+                167,
+                41,
+                14,
+                4
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.18102445,
+                "1": 0.2322468,
+                "2": 0.1589057,
+                "3": 0.17636787,
+                "4": 0.112922,
+                "5": 0.1862631,
+                "6": 0.16298021,
+                "7": 0.1653085,
+                "8": 0.16589057,
+                "9": 0.23108265
+              },
+              "count": {
+                "0": 10,
+                "1": 8,
+                "2": 8,
+                "3": 7,
+                "4": 7,
+                "5": 7,
+                "6": 6,
+                "7": 6,
+                "8": 6,
+                "9": 6
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.17112922,
+                "1": 0.1653085,
+                "2": 0.15541327,
+                "3": 0.19965076,
+                "4": 0.15366705,
+                "5": 0.19848661,
+                "6": 0.20779977,
+                "7": 0.20197905,
+                "8": 0.16647264,
+                "9": 0.14610012
+              },
+              "count": {
+                "0": 9,
+                "1": 8,
+                "2": 8,
+                "3": 7,
+                "4": 7,
+                "5": 7,
+                "6": 6,
+                "7": 6,
+                "8": 6,
+                "9": 6
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Tool_wear_min",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.43,
+          "std": 0.25,
+          "min": 0.0,
+          "p25": 0.23,
+          "p50": 0.42,
+          "p75": 0.63,
+          "max": 1.01,
+          "unique": 229,
+          "unique_percentage": 22.9,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.0,
+          "most_common_percentage": 1.4
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.42,
+          "std": 0.25,
+          "min": 0.0,
+          "p25": 0.22,
+          "p50": 0.41,
+          "p75": 0.62,
+          "max": 0.98,
+          "unique": 225,
+          "unique_percentage": 22.5,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.0,
+          "most_common_percentage": 1.6
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.07199772357142857,
+                0.14399544714285714,
+                0.2159931707142857,
+                0.2879908942857143,
+                0.35998861785714287,
+                0.4319863414285714,
+                0.503984065,
+                0.5759817885714286,
+                0.6479795121428571,
+                0.7199772357142857,
+                0.7919749592857143,
+                0.8639726828571428,
+                0.9359704064285714
+              ],
+              "count": [
+                88,
+                86,
+                76,
+                100,
+                96,
+                90,
+                85,
+                79,
+                75,
+                79,
+                69,
+                60,
+                16,
+                1
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.07199772357142857,
+                0.14399544714285714,
+                0.2159931707142857,
+                0.2879908942857143,
+                0.35998861785714287,
+                0.4319863414285714,
+                0.503984065,
+                0.5759817885714286,
+                0.6479795121428571,
+                0.7199772357142857,
+                0.7919749592857143,
+                0.8639726828571428,
+                0.9359704064285714
+              ],
+              "count": [
+                90,
+                77,
+                68,
+                105,
+                72,
+                94,
+                99,
+                74,
+                90,
+                65,
+                78,
+                61,
+                24,
+                3
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.0986435890143165,
+                -1.9749912131442846,
+                -1.8513388372742527,
+                -1.7276864614042209,
+                -1.604034085534189,
+                -1.4803817096641572,
+                -1.3567293337941255,
+                -1.2330769579240937,
+                -1.1094245820540618,
+                -0.9857722061840299,
+                -0.8621198303139981,
+                -0.7384674544439662,
+                -0.6148150785739346,
+                -0.4911627027039027,
+                -0.36751032683387086,
+                -0.243857950963839,
+                -0.12020557509380714
+              ],
+              "count": [
+                4,
+                4,
+                3,
+                8,
+                13,
+                15,
+                8,
+                23,
+                26,
+                46,
+                43,
+                75,
+                117,
+                130,
+                166,
+                195,
+                108
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.0986435890143165,
+                -1.9749912131442846,
+                -1.8513388372742527,
+                -1.7276864614042209,
+                -1.604034085534189,
+                -1.4803817096641572,
+                -1.3567293337941255,
+                -1.2330769579240937,
+                -1.1094245820540618,
+                -0.9857722061840299,
+                -0.8621198303139981,
+                -0.7384674544439662,
+                -0.6148150785739346,
+                -0.4911627027039027,
+                -0.36751032683387086,
+                -0.243857950963839,
+                -0.12020557509380714
+              ],
+              "count": [
+                3,
+                0,
+                6,
+                11,
+                11,
+                13,
+                15,
+                22,
+                22,
+                44,
+                37,
+                75,
+                107,
+                123,
+                172,
+                206,
+                119
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.0,
+                "1": 0.02788845,
+                "2": 0.54581673,
+                "3": 0.3187251,
+                "4": 0.58167331,
+                "5": 0.42629482,
+                "6": 0.33864542,
+                "7": 0.26294821,
+                "8": 0.6374502,
+                "9": 0.46215139
+              },
+              "count": {
+                "0": 16,
+                "1": 11,
+                "2": 11,
+                "3": 10,
+                "4": 10,
+                "5": 10,
+                "6": 9,
+                "7": 9,
+                "8": 9,
+                "9": 8
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.0,
+                "1": 0.47410359,
+                "2": 0.41434263,
+                "3": 0.1314741,
+                "4": 0.43426295,
+                "5": 0.63346614,
+                "6": 0.58167331,
+                "7": 0.25498008,
+                "8": 0.22709163,
+                "9": 0.52589641
+              },
+              "count": {
+                "0": 14,
+                "1": 12,
+                "2": 11,
+                "3": 11,
+                "4": 10,
+                "5": 9,
+                "6": 9,
+                "7": 9,
+                "8": 9,
+                "9": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Temperature_difference",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.53,
+          "std": 0.22,
+          "min": 0.0,
+          "p25": 0.37,
+          "p50": 0.49,
+          "p75": 0.76,
+          "max": 0.98,
+          "unique": 45,
+          "unique_percentage": 4.5,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.77778,
+          "most_common_percentage": 5.8
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.53,
+          "std": 0.22,
+          "min": 0.0,
+          "p25": 0.38,
+          "p50": 0.49,
+          "p75": 0.73,
+          "max": 0.98,
+          "unique": 45,
+          "unique_percentage": 4.5,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.42222,
+          "most_common_percentage": 6.0
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.07521367538461539,
+                0.15042735076923078,
+                0.22564102615384618,
+                0.30085470153846156,
+                0.37606837692307693,
+                0.45128205230769236,
+                0.5264957276923077,
+                0.6017094030769231,
+                0.6769230784615385,
+                0.7521367538461539,
+                0.8273504292307693,
+                0.9025641046153847
+              ],
+              "count": [
+                16,
+                16,
+                45,
+                61,
+                110,
+                204,
+                103,
+                56,
+                55,
+                93,
+                161,
+                66,
+                14
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.07521367538461539,
+                0.15042735076923078,
+                0.22564102615384618,
+                0.30085470153846156,
+                0.37606837692307693,
+                0.45128205230769236,
+                0.5264957276923077,
+                0.6017094030769231,
+                0.6769230784615385,
+                0.7521367538461539,
+                0.8273504292307693,
+                0.9025641046153847
+              ],
+              "count": [
+                25,
+                16,
+                40,
+                62,
+                107,
+                189,
+                101,
+                64,
+                40,
+                79,
+                197,
+                65,
+                15
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.653212557204794,
+                -1.5619096282657567,
+                -1.4706066993267195,
+                -1.3793037703876823,
+                -1.288000841448645,
+                -1.1966979125096078,
+                -1.1053949835705703,
+                -1.0140920546315333,
+                -0.9227891256924959,
+                -0.8314861967534587,
+                -0.7401832678144215,
+                -0.6488803388753841,
+                -0.5575774099363469,
+                -0.4662744809973096,
+                -0.3749715520582724,
+                -0.28366862311923513,
+                -0.1923656941801979,
+                -0.10106276524116065
+              ],
+              "count": [
+                3,
+                0,
+                0,
+                7,
+                0,
+                5,
+                3,
+                8,
+                5,
+                22,
+                23,
+                34,
+                104,
+                134,
+                206,
+                67,
+                233,
+                145
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.653212557204794,
+                -1.5619096282657567,
+                -1.4706066993267195,
+                -1.3793037703876823,
+                -1.288000841448645,
+                -1.1966979125096078,
+                -1.1053949835705703,
+                -1.0140920546315333,
+                -0.9227891256924959,
+                -0.8314861967534587,
+                -0.7401832678144215,
+                -0.6488803388753841,
+                -0.5575774099363469,
+                -0.4662744809973096,
+                -0.3749715520582724,
+                -0.28366862311923513,
+                -0.1923656941801979,
+                -0.10106276524116065
+              ],
+              "count": [
+                4,
+                0,
+                0,
+                10,
+                0,
+                9,
+                4,
+                6,
+                6,
+                18,
+                22,
+                35,
+                87,
+                137,
+                200,
+                74,
+                218,
+                168
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.42222222,
+                "1": 0.77777778,
+                "2": 0.37777778,
+                "3": 0.4,
+                "4": 0.84444444,
+                "5": 0.44444444,
+                "6": 0.46666667,
+                "7": 0.33333333,
+                "8": 0.75555556,
+                "9": 0.73333333
+              },
+              "count": {
+                "0": 60,
+                "1": 57,
+                "2": 53,
+                "3": 48,
+                "4": 44,
+                "5": 43,
+                "6": 41,
+                "7": 39,
+                "8": 39,
+                "9": 38
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.77777778,
+                "1": 0.42222222,
+                "2": 0.8,
+                "3": 0.75555556,
+                "4": 0.4,
+                "5": 0.44444444,
+                "6": 0.35555556,
+                "7": 0.84444444,
+                "8": 0.46666667,
+                "9": 0.37777778
+              },
+              "count": {
+                "0": 58,
+                "1": 52,
+                "2": 52,
+                "3": 51,
+                "4": 50,
+                "5": 47,
+                "6": 47,
+                "7": 43,
+                "8": 42,
+                "9": 40
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Temperature_power",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.1,
+          "std": 0.04,
+          "min": 0.0,
+          "p25": 0.07,
+          "p50": 0.09,
+          "p75": 0.12,
+          "max": 0.31,
+          "unique": 998,
+          "unique_percentage": 99.8,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.08867,
+          "most_common_percentage": 0.2
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.1,
+          "std": 0.04,
+          "min": -0.0,
+          "p25": 0.07,
+          "p50": 0.09,
+          "p75": 0.12,
+          "max": 0.5,
+          "unique": 999,
+          "unique_percentage": 99.9,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.06117,
+          "most_common_percentage": 0.2
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -0.003613,
+                0.026031396470588233,
+                0.055675792941176465,
+                0.0853201894117647,
+                0.11496458588235292,
+                0.14460898235294115,
+                0.1742533788235294,
+                0.20389777529411762,
+                0.23354217176470585,
+                0.2631865682352941,
+                0.2928309647058823,
+                0.3224753611764706,
+                0.35211975764705883,
+                0.381764154117647,
+                0.4114085505882353,
+                0.4410529470588235,
+                0.4706973435294117
+              ],
+              "count": [
+                10,
+                138,
+                285,
+                269,
+                168,
+                74,
+                36,
+                11,
+                3,
+                2,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -0.003613,
+                0.026031396470588233,
+                0.055675792941176465,
+                0.0853201894117647,
+                0.11496458588235292,
+                0.14460898235294115,
+                0.1742533788235294,
+                0.20389777529411762,
+                0.23354217176470585,
+                0.2631865682352941,
+                0.2928309647058823,
+                0.3224753611764706,
+                0.35211975764705883,
+                0.381764154117647,
+                0.4114085505882353,
+                0.4410529470588235,
+                0.4706973435294117
+              ],
+              "count": [
+                17,
+                122,
+                301,
+                267,
+                173,
+                76,
+                26,
+                13,
+                4,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.5332302180916093,
+                -2.4019068679370745,
+                -2.27058351778254,
+                -2.1392601676280054,
+                -2.007936817473471,
+                -1.8766134673189363,
+                -1.7452901171644015,
+                -1.613966767009867,
+                -1.4826434168553324,
+                -1.3513200667007979,
+                -1.2199967165462633,
+                -1.0886733663917285,
+                -0.957350016237194,
+                -0.8260266660826594,
+                -0.6947033159281246,
+                -0.5633799657735901,
+                -0.4320566156190555
+              ],
+              "count": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                6,
+                13,
+                39,
+                124,
+                207,
+                282,
+                212,
+                91,
+                17,
+                4,
+                1
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.5332302180916093,
+                -2.4019068679370745,
+                -2.27058351778254,
+                -2.1392601676280054,
+                -2.007936817473471,
+                -1.8766134673189363,
+                -1.7452901171644015,
+                -1.613966767009867,
+                -1.4826434168553324,
+                -1.3513200667007979,
+                -1.2199967165462633,
+                -1.0886733663917285,
+                -0.957350016237194,
+                -0.8260266660826594,
+                -0.6947033159281246,
+                -0.5633799657735901,
+                -0.4320566156190555
+              ],
+              "count": [
+                1,
+                1,
+                0,
+                2,
+                1,
+                2,
+                8,
+                16,
+                40,
+                102,
+                229,
+                266,
+                229,
+                85,
+                17,
+                1,
+                0
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.06117022,
+                "1": 0.08079826,
+                "2": 0.06294349,
+                "3": 0.17431771,
+                "4": 0.07643707,
+                "5": 0.14104569,
+                "6": 0.09315802,
+                "7": 0.10237724,
+                "8": 0.1029286,
+                "9": 0.16811818
+              },
+              "count": {
+                "0": 2,
+                "1": 1,
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "5": 1,
+                "6": 1,
+                "7": 1,
+                "8": 1,
+                "9": 1
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.08867172,
+                "1": 0.07037044,
+                "2": 0.10040514,
+                "3": 0.08034897,
+                "4": 0.09272464,
+                "5": 0.07226732,
+                "6": 0.08585445,
+                "7": 0.11294906,
+                "8": 0.08978203,
+                "9": 0.11083176
+              },
+              "count": {
+                "0": 2,
+                "1": 2,
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "5": 1,
+                "6": 1,
+                "7": 1,
+                "8": 1,
+                "9": 1
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Power_wear",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.31,
+          "std": 0.19,
+          "min": 0.0,
+          "p25": 0.16,
+          "p50": 0.31,
+          "p75": 0.45,
+          "max": 0.97,
+          "unique": 987,
+          "unique_percentage": 98.7,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.0,
+          "most_common_percentage": 1.4
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.3,
+          "std": 0.19,
+          "min": 0.0,
+          "p25": 0.15,
+          "p50": 0.28,
+          "p75": 0.44,
+          "max": 0.86,
+          "unique": 985,
+          "unique_percentage": 98.5,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.0,
+          "most_common_percentage": 1.6
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.06455202933333333,
+                0.12910405866666666,
+                0.193656088,
+                0.2582081173333333,
+                0.32276014666666664,
+                0.387312176,
+                0.4518642053333333,
+                0.5164162346666666,
+                0.580968264,
+                0.6455202933333333,
+                0.7100723226666666,
+                0.774624352,
+                0.8391763813333333,
+                0.9037284106666666
+              ],
+              "count": [
+                104,
+                110,
+                114,
+                128,
+                109,
+                113,
+                88,
+                89,
+                62,
+                44,
+                22,
+                11,
+                5,
+                1,
+                0
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.06455202933333333,
+                0.12910405866666666,
+                0.193656088,
+                0.2582081173333333,
+                0.32276014666666664,
+                0.387312176,
+                0.4518642053333333,
+                0.5164162346666666,
+                0.580968264,
+                0.6455202933333333,
+                0.7100723226666666,
+                0.774624352,
+                0.8391763813333333,
+                0.9037284106666666
+              ],
+              "count": [
+                112,
+                97,
+                118,
+                100,
+                96,
+                127,
+                108,
+                78,
+                65,
+                50,
+                24,
+                15,
+                6,
+                3,
+                1
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.323804056878917,
+                -2.1879331618352382,
+                -2.0520622667915593,
+                -1.9161913717478805,
+                -1.7803204767042016,
+                -1.6444495816605227,
+                -1.508578686616844,
+                -1.3727077915731651,
+                -1.2368368965294863,
+                -1.1009660014858074,
+                -0.9650951064421285,
+                -0.8292242113984496,
+                -0.6933533163547709,
+                -0.557482421311092,
+                -0.42161152626741316,
+                -0.2857406312237343,
+                -0.1498697361800554
+              ],
+              "count": [
+                2,
+                5,
+                5,
+                7,
+                9,
+                15,
+                20,
+                16,
+                42,
+                51,
+                53,
+                110,
+                143,
+                169,
+                194,
+                126,
+                17
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -2.323804056878917,
+                -2.1879331618352382,
+                -2.0520622667915593,
+                -1.9161913717478805,
+                -1.7803204767042016,
+                -1.6444495816605227,
+                -1.508578686616844,
+                -1.3727077915731651,
+                -1.2368368965294863,
+                -1.1009660014858074,
+                -0.9650951064421285,
+                -0.8292242113984496,
+                -0.6933533163547709,
+                -0.557482421311092,
+                -0.42161152626741316,
+                -0.2857406312237343,
+                -0.1498697361800554
+              ],
+              "count": [
+                2,
+                1,
+                3,
+                13,
+                11,
+                11,
+                21,
+                23,
+                31,
+                51,
+                48,
+                103,
+                116,
+                184,
+                208,
+                135,
+                25
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.0,
+                "1": 0.10521696,
+                "2": 0.57435694,
+                "3": 0.63102561,
+                "4": 0.31118516,
+                "5": 0.38585451,
+                "6": 0.32620617,
+                "7": 0.28832089,
+                "8": 0.07463406,
+                "9": 0.58543351
+              },
+              "count": {
+                "0": 16,
+                "1": 1,
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "5": 1,
+                "6": 1,
+                "7": 1,
+                "8": 1,
+                "9": 1
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.0,
+                "1": 0.23905317,
+                "2": 0.22050807,
+                "3": 0.43455845,
+                "4": 0.51538326,
+                "5": 0.50837708,
+                "6": 0.24557515,
+                "7": 0.21907778,
+                "8": 0.4682238,
+                "9": 0.13358031
+              },
+              "count": {
+                "0": 14,
+                "1": 1,
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "5": 1,
+                "6": 1,
+                "7": 1,
+                "8": 1,
+                "9": 1
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Air_temperature_K",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.51,
+          "std": 0.21,
+          "min": 0.0,
+          "p25": 0.34,
+          "p50": 0.51,
+          "p75": 0.67,
+          "max": 0.97,
+          "unique": 85,
+          "unique_percentage": 8.5,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.58696,
+          "most_common_percentage": 3.0
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.51,
+          "std": 0.22,
+          "min": 0.02,
+          "p25": 0.33,
+          "p50": 0.52,
+          "p75": 0.68,
+          "max": 0.99,
+          "unique": 87,
+          "unique_percentage": 8.7,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.58696,
+          "most_common_percentage": 2.9
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.07065217357142857,
+                0.14130434714285714,
+                0.21195652071428572,
+                0.2826086942857143,
+                0.35326086785714284,
+                0.42391304142857145,
+                0.494565215,
+                0.5652173885714286,
+                0.6358695621428572,
+                0.7065217357142857,
+                0.7771739092857143,
+                0.8478260828571429,
+                0.9184782564285714
+              ],
+              "count": [
+                11,
+                7,
+                50,
+                90,
+                125,
+                122,
+                65,
+                97,
+                129,
+                74,
+                97,
+                56,
+                42,
+                35
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.0,
+                0.07065217357142857,
+                0.14130434714285714,
+                0.21195652071428572,
+                0.2826086942857143,
+                0.35326086785714284,
+                0.42391304142857145,
+                0.494565215,
+                0.5652173885714286,
+                0.6358695621428572,
+                0.7065217357142857,
+                0.7771739092857143,
+                0.8478260828571429,
+                0.9184782564285714
+              ],
+              "count": [
+                7,
+                12,
+                40,
+                91,
+                134,
+                127,
+                71,
+                94,
+                129,
+                70,
+                99,
+                59,
+                43,
+                24
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.6627578403674639,
+                -1.565227757823751,
+                -1.4676976752800384,
+                -1.3701675927363257,
+                -1.2726375101926128,
+                -1.1751074276489,
+                -1.0775773451051873,
+                -0.9800472625614746,
+                -0.8825171800177618,
+                -0.784987097474049,
+                -0.6874570149303363,
+                -0.5899269323866234,
+                -0.49239684984291077,
+                -0.3948667672991981,
+                -0.29733668475548525,
+                -0.19980660221177238,
+                -0.10227651966805973
+              ],
+              "count": [
+                1,
+                2,
+                0,
+                1,
+                7,
+                0,
+                3,
+                4,
+                13,
+                23,
+                78,
+                106,
+                142,
+                102,
+                214,
+                185,
+                119
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.6627578403674639,
+                -1.565227757823751,
+                -1.4676976752800384,
+                -1.3701675927363257,
+                -1.2726375101926128,
+                -1.1751074276489,
+                -1.0775773451051873,
+                -0.9800472625614746,
+                -0.8825171800177618,
+                -0.784987097474049,
+                -0.6874570149303363,
+                -0.5899269323866234,
+                -0.49239684984291077,
+                -0.3948667672991981,
+                -0.29733668475548525,
+                -0.19980660221177238,
+                -0.10227651966805973
+              ],
+              "count": [
+                1,
+                5,
+                0,
+                0,
+                0,
+                0,
+                4,
+                8,
+                14,
+                18,
+                78,
+                97,
+                156,
+                112,
+                211,
+                192,
+                103
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.58695652,
+                "1": 0.38043478,
+                "2": 0.22826087,
+                "3": 0.55434783,
+                "4": 0.56521739,
+                "5": 0.29347826,
+                "6": 0.31521739,
+                "7": 0.52173913,
+                "8": 0.39130435,
+                "9": 0.76086957
+              },
+              "count": {
+                "0": 29,
+                "1": 28,
+                "2": 25,
+                "3": 24,
+                "4": 24,
+                "5": 24,
+                "6": 23,
+                "7": 22,
+                "8": 21,
+                "9": 21
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.58695652,
+                "1": 0.31521739,
+                "2": 0.7826087,
+                "3": 0.40217391,
+                "4": 0.57608696,
+                "5": 0.56521739,
+                "6": 0.34782609,
+                "7": 0.76086957,
+                "8": 0.38043478,
+                "9": 0.29347826
+              },
+              "count": {
+                "0": 30,
+                "1": 24,
+                "2": 23,
+                "3": 22,
+                "4": 22,
+                "5": 22,
+                "6": 21,
+                "7": 21,
+                "8": 21,
+                "9": 20
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Process_temperature_K",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.53,
+          "std": 0.18,
+          "min": 0.01,
+          "p25": 0.38,
+          "p50": 0.53,
+          "p75": 0.65,
+          "max": 1.0,
+          "unique": 70,
+          "unique_percentage": 7.0,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.60494,
+          "most_common_percentage": 3.8
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.53,
+          "std": 0.19,
+          "min": 0.02,
+          "p25": 0.38,
+          "p50": 0.54,
+          "p75": 0.65,
+          "max": 0.99,
+          "unique": 74,
+          "unique_percentage": 7.4,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.62963,
+          "most_common_percentage": 3.7
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.01234568,
+                0.08831908923076923,
+                0.16429249846153846,
+                0.24026590769230768,
+                0.31623931692307694,
+                0.39221272615384617,
+                0.4681861353846154,
+                0.5441595446153846,
+                0.6201329538461539,
+                0.6961063630769231,
+                0.7720797723076923,
+                0.8480531815384615,
+                0.9240265907692308
+              ],
+              "count": [
+                6,
+                7,
+                25,
+                84,
+                139,
+                132,
+                141,
+                137,
+                125,
+                104,
+                49,
+                35,
+                16
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.01234568,
+                0.08831908923076923,
+                0.16429249846153846,
+                0.24026590769230768,
+                0.31623931692307694,
+                0.39221272615384617,
+                0.4681861353846154,
+                0.5441595446153846,
+                0.6201329538461539,
+                0.6961063630769231,
+                0.7720797723076923,
+                0.8480531815384615,
+                0.9240265907692308
+              ],
+              "count": [
+                7,
+                2,
+                34,
+                74,
+                140,
+                119,
+                149,
+                158,
+                137,
+                94,
+                46,
+                27,
+                13
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.9084849841350926,
+                -1.7962211615389108,
+                -1.6839573389427287,
+                -1.5716935163465469,
+                -1.4594296937503648,
+                -1.347165871154183,
+                -1.2349020485580011,
+                -1.1226382259618193,
+                -1.0103744033656372,
+                -0.8981105807694554,
+                -0.7858467581732733,
+                -0.6735829355770915,
+                -0.5613191129809096,
+                -0.4490552903847276,
+                -0.33679146778854574,
+                -0.22452764519236368,
+                -0.11226382259618184
+              ],
+              "count": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                4,
+                1,
+                6,
+                1,
+                11,
+                61,
+                109,
+                199,
+                217,
+                290,
+                100
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.9084849841350926,
+                -1.7962211615389108,
+                -1.6839573389427287,
+                -1.5716935163465469,
+                -1.4594296937503648,
+                -1.347165871154183,
+                -1.2349020485580011,
+                -1.1226382259618193,
+                -1.0103744033656372,
+                -0.8981105807694554,
+                -0.7858467581732733,
+                -0.6735829355770915,
+                -0.5613191129809096,
+                -0.4490552903847276,
+                -0.33679146778854574,
+                -0.22452764519236368,
+                -0.11226382259618184
+              ],
+              "count": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                3,
+                2,
+                0,
+                0,
+                2,
+                19,
+                50,
+                107,
+                191,
+                233,
+                305,
+                86
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.62962963,
+                "1": 0.54320988,
+                "2": 0.61728395,
+                "3": 0.35802469,
+                "4": 0.60493827,
+                "5": 0.33333333,
+                "6": 0.43209877,
+                "7": 0.75308642,
+                "8": 0.50617284,
+                "9": 0.58024691
+              },
+              "count": {
+                "0": 37,
+                "1": 34,
+                "2": 33,
+                "3": 32,
+                "4": 28,
+                "5": 28,
+                "6": 26,
+                "7": 26,
+                "8": 26,
+                "9": 25
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.60493827,
+                "1": 0.61728395,
+                "2": 0.65432099,
+                "3": 0.5308642,
+                "4": 0.35802469,
+                "5": 0.34567901,
+                "6": 0.48148148,
+                "7": 0.37037037,
+                "8": 0.59259259,
+                "9": 0.39506173
+              },
+              "count": {
+                "0": 38,
+                "1": 36,
+                "2": 32,
+                "3": 31,
+                "4": 29,
+                "5": 29,
+                "6": 26,
+                "7": 26,
+                "8": 26,
+                "9": 26
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Torque_Nm",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.5,
+          "std": 0.13,
+          "min": 0.1,
+          "p25": 0.41,
+          "p50": 0.5,
+          "p75": 0.59,
+          "max": 0.91,
+          "unique": 368,
+          "unique_percentage": 36.8,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.51374,
+          "most_common_percentage": 1.1
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.5,
+          "std": 0.14,
+          "min": 0.03,
+          "p25": 0.4,
+          "p50": 0.5,
+          "p75": 0.59,
+          "max": 0.95,
+          "unique": 377,
+          "unique_percentage": 37.7,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.50412,
+          "most_common_percentage": 1.0
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.02747253,
+                0.09826712,
+                0.16906171,
+                0.23985630000000002,
+                0.31065089,
+                0.38144548,
+                0.45224007000000005,
+                0.5230346600000001,
+                0.5938292500000001,
+                0.6646238400000001,
+                0.7354184300000001,
+                0.8062130200000001,
+                0.8770076100000002
+              ],
+              "count": [
+                1,
+                9,
+                16,
+                60,
+                127,
+                165,
+                207,
+                172,
+                131,
+                66,
+                35,
+                8,
+                3
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.02747253,
+                0.09826712,
+                0.16906171,
+                0.23985630000000002,
+                0.31065089,
+                0.38144548,
+                0.45224007000000005,
+                0.5230346600000001,
+                0.5938292500000001,
+                0.6646238400000001,
+                0.7354184300000001,
+                0.8062130200000001,
+                0.8770076100000002
+              ],
+              "count": [
+                1,
+                5,
+                18,
+                45,
+                116,
+                183,
+                186,
+                198,
+                141,
+                63,
+                30,
+                8,
+                6
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.5611013436939656,
+                -1.4706413992160101,
+                -1.3801814547380546,
+                -1.2897215102600992,
+                -1.1992615657821437,
+                -1.1088016213041882,
+                -1.0183416768262326,
+                -0.9278817323482771,
+                -0.8374217878703216,
+                -0.7469618433923662,
+                -0.6565018989144107,
+                -0.5660419544364551,
+                -0.47558200995849953,
+                -0.38512206548054406,
+                -0.2946621210025886,
+                -0.20420217652463313,
+                -0.11374223204667766
+              ],
+              "count": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                5,
+                9,
+                33,
+                67,
+                159,
+                266,
+                274,
+                153,
+                28
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.5611013436939656,
+                -1.4706413992160101,
+                -1.3801814547380546,
+                -1.2897215102600992,
+                -1.1992615657821437,
+                -1.1088016213041882,
+                -1.0183416768262326,
+                -0.9278817323482771,
+                -0.8374217878703216,
+                -0.7469618433923662,
+                -0.6565018989144107,
+                -0.5660419544364551,
+                -0.47558200995849953,
+                -0.38512206548054406,
+                -0.2946621210025886,
+                -0.20420217652463313,
+                -0.11374223204667766
+              ],
+              "count": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                1,
+                5,
+                11,
+                18,
+                62,
+                148,
+                262,
+                319,
+                142,
+                29
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.50412088,
+                "1": 0.54395604,
+                "2": 0.37912088,
+                "3": 0.43543956,
+                "4": 0.46428571,
+                "5": 0.44230769,
+                "6": 0.62774725,
+                "7": 0.5,
+                "8": 0.56456044,
+                "9": 0.5728022
+              },
+              "count": {
+                "0": 10,
+                "1": 9,
+                "2": 9,
+                "3": 8,
+                "4": 8,
+                "5": 8,
+                "6": 7,
+                "7": 7,
+                "8": 7,
+                "9": 7
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.51373626,
+                "1": 0.49587912,
+                "2": 0.45054945,
+                "3": 0.58104396,
+                "4": 0.47664835,
+                "5": 0.39285714,
+                "6": 0.55082418,
+                "7": 0.43956044,
+                "8": 0.5260989,
+                "9": 0.55357143
+              },
+              "count": {
+                "0": 11,
+                "1": 10,
+                "2": 9,
+                "3": 9,
+                "4": 8,
+                "5": 8,
+                "6": 8,
+                "7": 7,
+                "8": 7,
+                "9": 7
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Power",
+        "column_type": "num",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.56,
+          "std": 0.11,
+          "min": 0.2,
+          "p25": 0.48,
+          "p50": 0.55,
+          "p75": 0.63,
+          "max": 0.97,
+          "unique": 989,
+          "unique_percentage": 98.9,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.48761,
+          "most_common_percentage": 0.2
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.NumericCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "mean": 0.55,
+          "std": 0.12,
+          "min": 0.06,
+          "p25": 0.47,
+          "p50": 0.55,
+          "p75": 0.63,
+          "max": 0.96,
+          "unique": 987,
+          "unique_percentage": 98.7,
+          "infinite_count": 0,
+          "infinite_percentage": 0.0,
+          "most_common": 0.65533,
+          "most_common_percentage": 0.3
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.06086935,
+                0.12613578142857143,
+                0.19140221285714287,
+                0.2566686442857143,
+                0.3219350757142857,
+                0.3872015071428571,
+                0.4524679385714286,
+                0.51773437,
+                0.5830008014285715,
+                0.6482672328571429,
+                0.7135336642857143,
+                0.7788000957142858,
+                0.8440665271428572,
+                0.9093329585714286
+              ],
+              "count": [
+                1,
+                0,
+                4,
+                17,
+                53,
+                128,
+                199,
+                212,
+                179,
+                125,
+                56,
+                19,
+                6,
+                1
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                0.06086935,
+                0.12613578142857143,
+                0.19140221285714287,
+                0.2566686442857143,
+                0.3219350757142857,
+                0.3872015071428571,
+                0.4524679385714286,
+                0.51773437,
+                0.5830008014285715,
+                0.6482672328571429,
+                0.7135336642857143,
+                0.7788000957142858,
+                0.8440665271428572,
+                0.9093329585714286
+              ],
+              "count": [
+                0,
+                0,
+                3,
+                16,
+                42,
+                122,
+                198,
+                223,
+                206,
+                107,
+                55,
+                21,
+                6,
+                1
+              ],
+              "name": null
+            },
+            "current_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.2156013358832733,
+                -1.1447526611124204,
+                -1.0739039863415674,
+                -1.0030553115707144,
+                -0.9322066367998612,
+                -0.8613579620290082,
+                -0.7905092872581552,
+                -0.7196606124873022,
+                -0.6488119377164491,
+                -0.5779632629455961,
+                -0.507114588174743,
+                -0.43626591340389,
+                -0.365417238633037,
+                -0.2945685638621839,
+                -0.2237198890913309,
+                -0.1528712143204778,
+                -0.0820225395496248
+              ],
+              "count": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                7,
+                11,
+                34,
+                94,
+                217,
+                289,
+                249,
+                88,
+                10
+              ],
+              "name": null
+            },
+            "reference_log": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                -1.2156013358832733,
+                -1.1447526611124204,
+                -1.0739039863415674,
+                -1.0030553115707144,
+                -0.9322066367998612,
+                -0.8613579620290082,
+                -0.7905092872581552,
+                -0.7196606124873022,
+                -0.6488119377164491,
+                -0.5779632629455961,
+                -0.507114588174743,
+                -0.43626591340389,
+                -0.365417238633037,
+                -0.2945685638621839,
+                -0.2237198890913309,
+                -0.1528712143204778,
+                -0.0820225395496248
+              ],
+              "count": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                13,
+                21,
+                87,
+                205,
+                329,
+                249,
+                80,
+                12
+              ],
+              "name": null
+            }
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0.65532907,
+                "1": 0.63285498,
+                "2": 0.50973334,
+                "3": 0.6191054,
+                "4": 0.50829761,
+                "5": 0.58174257,
+                "6": 0.53925692,
+                "7": 0.48158596,
+                "8": 0.53310618,
+                "9": 0.5172659
+              },
+              "count": {
+                "0": 3,
+                "1": 2,
+                "2": 2,
+                "3": 2,
+                "4": 2,
+                "5": 2,
+                "6": 2,
+                "7": 2,
+                "8": 2,
+                "9": 2
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0.48760751,
+                "1": 0.4828015,
+                "2": 0.52644989,
+                "3": 0.6334459,
+                "4": 0.52546577,
+                "5": 0.5985355,
+                "6": 0.67017175,
+                "7": 0.51797703,
+                "8": 0.55271105,
+                "9": 0.56459238
+              },
+              "count": {
+                "0": 2,
+                "1": 2,
+                "2": 2,
+                "3": 2,
+                "4": 2,
+                "5": 2,
+                "6": 2,
+                "7": 2,
+                "8": 2,
+                "9": 2
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Type_M",
+        "column_type": "cat",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.CategoricalCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "unique": 2,
+          "unique_percentage": 0.2,
+          "most_common": 0,
+          "most_common_percentage": 69.4,
+          "new_in_current_values_count": null,
+          "unused_in_current_values_count": null
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.CategoricalCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "unique": 2,
+          "unique_percentage": 0.2,
+          "most_common": 0,
+          "most_common_percentage": 69.2,
+          "new_in_current_values_count": 0,
+          "unused_in_current_values_count": 0
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                "0",
+                "1"
+              ],
+              "count": [
+                692,
+                308
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                "0",
+                "1"
+              ],
+              "count": [
+                694,
+                306
+              ],
+              "name": null
+            },
+            "current_log": null,
+            "reference_log": null
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 0,
+                "1": 1
+              },
+              "count": {
+                "0": 692,
+                "1": 308
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 0,
+                "1": 1
+              },
+              "count": {
+                "0": 694,
+                "1": 306
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.column_summary_metric.ColumnSummaryResult",
+        "column_name": "Type_L",
+        "column_type": "cat",
+        "reference_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.CategoricalCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "unique": 2,
+          "unique_percentage": 0.2,
+          "most_common": 1,
+          "most_common_percentage": 59.3,
+          "new_in_current_values_count": null,
+          "unused_in_current_values_count": null
+        },
+        "current_characteristics": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.CategoricalCharacteristics",
+          "number_of_rows": 1000,
+          "count": 1000,
+          "missing": 0,
+          "missing_percentage": 0.0,
+          "unique": 2,
+          "unique_percentage": 0.2,
+          "most_common": 1,
+          "most_common_percentage": 59.5,
+          "new_in_current_values_count": 0,
+          "unused_in_current_values_count": 0
+        },
+        "plot_data": {
+          "type": "evidently.metrics.data_integrity.column_summary_metric.DataQualityPlot",
+          "bins_for_hist": {
+            "type": "evidently.metric_results.Histogram",
+            "current": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                "1",
+                "0"
+              ],
+              "count": [
+                595,
+                405
+              ],
+              "name": null
+            },
+            "reference": {
+              "type": "evidently.metric_results.HistogramData",
+              "x": [
+                "1",
+                "0"
+              ],
+              "count": [
+                593,
+                407
+              ],
+              "name": null
+            },
+            "current_log": null,
+            "reference_log": null
+          },
+          "data_in_time": null,
+          "data_by_target": null,
+          "counts_of_values": {
+            "current": {
+              "x": {
+                "0": 1,
+                "1": 0
+              },
+              "count": {
+                "0": 595,
+                "1": 405
+              }
+            },
+            "reference": {
+              "x": {
+                "0": 1,
+                "1": 0
+              },
+              "count": {
+                "0": 593,
+                "1": 407
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "evidently.metrics.data_integrity.dataset_missing_values_metric.DatasetMissingValuesMetricResult",
+        "current": {
+          "type": "evidently.metrics.data_integrity.dataset_missing_values_metric.DatasetMissingValues",
+          "different_missing_values": {
+            "": 0,
+            "-Infinity": 0,
+            "Infinity": 0,
+            "null": 0
+          },
+          "number_of_different_missing_values": 0,
+          "different_missing_values_by_column": {
+            "Air_temperature_K": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Process_temperature_K": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Rotational_speed_rpm": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Torque_Nm": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Tool_wear_min": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Power": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Power_wear": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Temperature_difference": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Temperature_power": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Type_L": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Type_M": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            }
+          },
+          "number_of_different_missing_values_by_column": {
+            "Air_temperature_K": 0,
+            "Process_temperature_K": 0,
+            "Rotational_speed_rpm": 0,
+            "Torque_Nm": 0,
+            "Tool_wear_min": 0,
+            "Power": 0,
+            "Power_wear": 0,
+            "Temperature_difference": 0,
+            "Temperature_power": 0,
+            "Type_L": 0,
+            "Type_M": 0
+          },
+          "number_of_missing_values": 0,
+          "share_of_missing_values": 0.0,
+          "number_of_missing_values_by_column": {
+            "Air_temperature_K": 0,
+            "Process_temperature_K": 0,
+            "Rotational_speed_rpm": 0,
+            "Torque_Nm": 0,
+            "Tool_wear_min": 0,
+            "Power": 0,
+            "Power_wear": 0,
+            "Temperature_difference": 0,
+            "Temperature_power": 0,
+            "Type_L": 0,
+            "Type_M": 0
+          },
+          "share_of_missing_values_by_column": {
+            "Air_temperature_K": 0.0,
+            "Process_temperature_K": 0.0,
+            "Rotational_speed_rpm": 0.0,
+            "Torque_Nm": 0.0,
+            "Tool_wear_min": 0.0,
+            "Power": 0.0,
+            "Power_wear": 0.0,
+            "Temperature_difference": 0.0,
+            "Temperature_power": 0.0,
+            "Type_L": 0.0,
+            "Type_M": 0.0
+          },
+          "number_of_rows": 1000,
+          "number_of_rows_with_missing_values": 0,
+          "share_of_rows_with_missing_values": 0.0,
+          "number_of_columns": 11,
+          "columns_with_missing_values": [],
+          "number_of_columns_with_missing_values": 0,
+          "share_of_columns_with_missing_values": 0.0
+        },
+        "reference": {
+          "type": "evidently.metrics.data_integrity.dataset_missing_values_metric.DatasetMissingValues",
+          "different_missing_values": {
+            "": 0,
+            "-Infinity": 0,
+            "Infinity": 0,
+            "null": 0
+          },
+          "number_of_different_missing_values": 0,
+          "different_missing_values_by_column": {
+            "Air_temperature_K": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Process_temperature_K": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Rotational_speed_rpm": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Torque_Nm": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Tool_wear_min": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Power": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Power_wear": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Temperature_difference": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Temperature_power": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Type_L": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            },
+            "Type_M": {
+              "": 0,
+              "-Infinity": 0,
+              "Infinity": 0,
+              "null": 0
+            }
+          },
+          "number_of_different_missing_values_by_column": {
+            "Air_temperature_K": 0,
+            "Process_temperature_K": 0,
+            "Rotational_speed_rpm": 0,
+            "Torque_Nm": 0,
+            "Tool_wear_min": 0,
+            "Power": 0,
+            "Power_wear": 0,
+            "Temperature_difference": 0,
+            "Temperature_power": 0,
+            "Type_L": 0,
+            "Type_M": 0
+          },
+          "number_of_missing_values": 0,
+          "share_of_missing_values": 0.0,
+          "number_of_missing_values_by_column": {
+            "Air_temperature_K": 0,
+            "Process_temperature_K": 0,
+            "Rotational_speed_rpm": 0,
+            "Torque_Nm": 0,
+            "Tool_wear_min": 0,
+            "Power": 0,
+            "Power_wear": 0,
+            "Temperature_difference": 0,
+            "Temperature_power": 0,
+            "Type_L": 0,
+            "Type_M": 0
+          },
+          "share_of_missing_values_by_column": {
+            "Air_temperature_K": 0.0,
+            "Process_temperature_K": 0.0,
+            "Rotational_speed_rpm": 0.0,
+            "Torque_Nm": 0.0,
+            "Tool_wear_min": 0.0,
+            "Power": 0.0,
+            "Power_wear": 0.0,
+            "Temperature_difference": 0.0,
+            "Temperature_power": 0.0,
+            "Type_L": 0.0,
+            "Type_M": 0.0
+          },
+          "number_of_rows": 1000,
+          "number_of_rows_with_missing_values": 0,
+          "share_of_rows_with_missing_values": 0.0,
+          "number_of_columns": 11,
+          "columns_with_missing_values": [],
+          "number_of_columns_with_missing_values": 0,
+          "share_of_columns_with_missing_values": 0.0
+        }
+      },
+      {
+        "type": "evidently.metrics.data_quality.dataset_correlations_metric.DatasetCorrelationsMetricResult",
+        "current": {
+          "type": "evidently.metrics.data_quality.dataset_correlations_metric.DatasetCorrelation",
+          "correlation": {
+            "pearson": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.013461166200517315,
+                "Temperature_difference": -0.025333216097864597,
+                "Temperature_power": 0.7836111710279505,
+                "Power_wear": -0.24914367357131667,
+                "Air_temperature_K": 0.05681347782820738,
+                "Process_temperature_K": 0.05914395875389533,
+                "Torque_Nm": -0.8771188852554052,
+                "Power": -0.8154082573289517
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.013461166200517315,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": 0.01400718763683359,
+                "Temperature_power": 0.030626683796536942,
+                "Power_wear": 0.9428554904621871,
+                "Air_temperature_K": -0.0029726262040797925,
+                "Process_temperature_K": 0.005167388192672836,
+                "Torque_Nm": 0.0031448436163065024,
+                "Power": -0.014634814047405947
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.025333216097864597,
+                "Tool_wear_min": 0.01400718763683359,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.4443570000116564,
+                "Power_wear": 0.017442657485698485,
+                "Air_temperature_K": -0.6901573691029106,
+                "Process_temperature_K": -0.2674708446313375,
+                "Torque_Nm": 0.011349183633368431,
+                "Power": 8.528661005921339e-05
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.7836111710279505,
+                "Tool_wear_min": 0.030626683796536942,
+                "Temperature_difference": 0.4443570000116564,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.21660361539754064,
+                "Air_temperature_K": -0.26891125216851863,
+                "Process_temperature_K": -0.06856772928582944,
+                "Torque_Nm": -0.8215519732525426,
+                "Power": -0.8430612573763054
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.24914367357131667,
+                "Tool_wear_min": 0.9428554904621871,
+                "Temperature_difference": 0.017442657485698485,
+                "Temperature_power": -0.21660361539754064,
+                "Power_wear": 1.0,
+                "Air_temperature_K": -0.018655564004689026,
+                "Process_temperature_K": -0.01347657487347146,
+                "Torque_Nm": 0.28394160513130745,
+                "Power": 0.27209010520428356
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.05681347782820738,
+                "Tool_wear_min": -0.0029726262040797925,
+                "Temperature_difference": -0.6901573691029106,
+                "Temperature_power": -0.26891125216851863,
+                "Power_wear": -0.018655564004689026,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8818904536307604,
+                "Torque_Nm": -0.055396446213366146,
+                "Power": -0.04972492188978787
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": 0.05914395875389533,
+                "Tool_wear_min": 0.005167388192672836,
+                "Temperature_difference": -0.2674708446313375,
+                "Temperature_power": -0.06856772928582944,
+                "Power_wear": -0.01347657487347146,
+                "Air_temperature_K": 0.8818904536307604,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": -0.06636756466565905,
+                "Power": -0.0661541020097898
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.8771188852554052,
+                "Tool_wear_min": 0.0031448436163065024,
+                "Temperature_difference": 0.011349183633368431,
+                "Temperature_power": -0.8215519732525426,
+                "Power_wear": 0.28394160513130745,
+                "Air_temperature_K": -0.055396446213366146,
+                "Process_temperature_K": -0.06636756466565905,
+                "Torque_Nm": 1.0,
+                "Power": 0.980977383628853
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.8154082573289517,
+                "Tool_wear_min": -0.014634814047405947,
+                "Temperature_difference": 8.528661005921339e-05,
+                "Temperature_power": -0.8430612573763054,
+                "Power_wear": 0.27209010520428356,
+                "Air_temperature_K": -0.04972492188978787,
+                "Process_temperature_K": -0.0661541020097898,
+                "Torque_Nm": 0.980977383628853,
+                "Power": 1.0
+              }
+            },
+            "spearman": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.02029045753248843,
+                "Temperature_difference": -0.04102885108782769,
+                "Temperature_power": 0.7014443233664275,
+                "Power_wear": -0.2267448206061828,
+                "Air_temperature_K": 0.05618875205908695,
+                "Process_temperature_K": 0.0557430271733129,
+                "Torque_Nm": -0.925790305714268,
+                "Power": -0.8382946847496591
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.02029045753248843,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": 0.01468836880562649,
+                "Temperature_power": 0.026774550809252666,
+                "Power_wear": 0.9584470137319161,
+                "Air_temperature_K": 0.0007612194986577769,
+                "Process_temperature_K": 0.00642972329147942,
+                "Torque_Nm": -0.0017762652026254275,
+                "Power": -0.013520379511853916
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.04102885108782769,
+                "Tool_wear_min": 0.01468836880562649,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.48221357787483676,
+                "Power_wear": 0.018006242489025766,
+                "Air_temperature_K": -0.6996093617786444,
+                "Process_temperature_K": -0.2747699559593401,
+                "Torque_Nm": 0.014561766905424945,
+                "Power": 0.0014702544249246816
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.7014443233664275,
+                "Tool_wear_min": 0.026774550809252666,
+                "Temperature_difference": 0.48221357787483676,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.18405468207877942,
+                "Air_temperature_K": -0.3075931468434493,
+                "Process_temperature_K": -0.07915632381770082,
+                "Torque_Nm": -0.832317012579134,
+                "Power": -0.8544668474812569
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.2267448206061828,
+                "Tool_wear_min": 0.9584470137319161,
+                "Temperature_difference": 0.018006242489025766,
+                "Temperature_power": -0.18405468207877942,
+                "Power_wear": 1.0,
+                "Air_temperature_K": -0.007403657547237134,
+                "Process_temperature_K": -0.004127830595115558,
+                "Torque_Nm": 0.23564830884263183,
+                "Power": 0.22793414517729146
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.05618875205908695,
+                "Tool_wear_min": 0.0007612194986577769,
+                "Temperature_difference": -0.6996093617786444,
+                "Temperature_power": -0.3075931468434493,
+                "Power_wear": -0.007403657547237134,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8718409675411951,
+                "Torque_Nm": -0.04825286095483248,
+                "Power": -0.04068614556384063
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": 0.0557430271733129,
+                "Tool_wear_min": 0.00642972329147942,
+                "Temperature_difference": -0.2747699559593401,
+                "Temperature_power": -0.07915632381770082,
+                "Power_wear": -0.004127830595115558,
+                "Air_temperature_K": 0.8718409675411951,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": -0.06348958928425547,
+                "Power": -0.061705596266871145
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.925790305714268,
+                "Tool_wear_min": -0.0017762652026254275,
+                "Temperature_difference": 0.014561766905424945,
+                "Temperature_power": -0.832317012579134,
+                "Power_wear": 0.23564830884263183,
+                "Air_temperature_K": -0.04825286095483248,
+                "Process_temperature_K": -0.06348958928425547,
+                "Torque_Nm": 1.0,
+                "Power": 0.980827615639146
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.8382946847496591,
+                "Tool_wear_min": -0.013520379511853916,
+                "Temperature_difference": 0.0014702544249246816,
+                "Temperature_power": -0.8544668474812569,
+                "Power_wear": 0.22793414517729146,
+                "Air_temperature_K": -0.04068614556384063,
+                "Process_temperature_K": -0.061705596266871145,
+                "Torque_Nm": 0.980827615639146,
+                "Power": 1.0
+              }
+            },
+            "kendall": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.013675045989503143,
+                "Temperature_difference": -0.028468806997926942,
+                "Temperature_power": 0.5098923723237619,
+                "Power_wear": -0.1532917943969208,
+                "Air_temperature_K": 0.03765248265041455,
+                "Process_temperature_K": 0.03698028351328398,
+                "Torque_Nm": -0.7708251873037485,
+                "Power": -0.6510537422818556
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.013675045989503143,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": 0.009789373653871274,
+                "Temperature_power": 0.01767614779561813,
+                "Power_wear": 0.8374182175621797,
+                "Air_temperature_K": 0.0020818663136952065,
+                "Process_temperature_K": 0.003725788683403804,
+                "Torque_Nm": -0.0007434730658831025,
+                "Power": -0.008736854243444224
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.028468806997926942,
+                "Tool_wear_min": 0.009789373653871274,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.33786013477811516,
+                "Power_wear": 0.012202003703515374,
+                "Air_temperature_K": -0.4991101899545752,
+                "Process_temperature_K": -0.17599441740354765,
+                "Torque_Nm": 0.009953857132022296,
+                "Power": 0.0013054005006517936
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.5098923723237619,
+                "Tool_wear_min": 0.01767614779561813,
+                "Temperature_difference": 0.33786013477811516,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.12458566140955887,
+                "Air_temperature_K": -0.2091981534767121,
+                "Process_temperature_K": -0.05220936907566267,
+                "Torque_Nm": -0.6394864285376549,
+                "Power": -0.666586585440606
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.1532917943969208,
+                "Tool_wear_min": 0.8374182175621797,
+                "Temperature_difference": 0.012202003703515374,
+                "Temperature_power": -0.12458566140955887,
+                "Power_wear": 1.0,
+                "Air_temperature_K": -0.003975194101609672,
+                "Process_temperature_K": -0.0030829212797154103,
+                "Torque_Nm": 0.1608650960991832,
+                "Power": 0.15566452444623816
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.03765248265041455,
+                "Tool_wear_min": 0.0020818663136952065,
+                "Temperature_difference": -0.4991101899545752,
+                "Temperature_power": -0.2091981534767121,
+                "Power_wear": -0.003975194101609672,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.6947236945053229,
+                "Torque_Nm": -0.03243763158134386,
+                "Power": -0.027613676693105868
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": 0.03698028351328398,
+                "Tool_wear_min": 0.003725788683403804,
+                "Temperature_difference": -0.17599441740354765,
+                "Temperature_power": -0.05220936907566267,
+                "Power_wear": -0.0030829212797154103,
+                "Air_temperature_K": 0.6947236945053229,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": -0.0423189685003327,
+                "Power": -0.041310804174395345
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.7708251873037485,
+                "Tool_wear_min": -0.0007434730658831025,
+                "Temperature_difference": 0.009953857132022296,
+                "Temperature_power": -0.6394864285376549,
+                "Power_wear": 0.1608650960991832,
+                "Air_temperature_K": -0.03243763158134386,
+                "Process_temperature_K": -0.0423189685003327,
+                "Torque_Nm": 1.0,
+                "Power": 0.8826282566951188
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.6510537422818556,
+                "Tool_wear_min": -0.008736854243444224,
+                "Temperature_difference": 0.0013054005006517936,
+                "Temperature_power": -0.666586585440606,
+                "Power_wear": 0.15566452444623816,
+                "Air_temperature_K": -0.027613676693105868,
+                "Process_temperature_K": -0.041310804174395345,
+                "Torque_Nm": 0.8826282566951188,
+                "Power": 1.0
+              }
+            },
+            "cramer_v": {
+              "Type_M": {
+                "Type_M": 1.0,
+                "Type_L": 0.8086363915974488
+              },
+              "Type_L": {
+                "Type_M": 0.8086363915974488,
+                "Type_L": 1.0
+              }
+            }
+          },
+          "stats": {
+            "pearson": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.980977383628853,
+              "abs_max_features_correlation": 0.980977383628853
+            },
+            "spearman": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.980827615639146,
+              "abs_max_features_correlation": 0.980827615639146
+            },
+            "kendall": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.8826282566951188,
+              "abs_max_features_correlation": 0.8826282566951188
+            },
+            "cramer_v": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.8086363915974488,
+              "abs_max_features_correlation": 0.8086363915974488
+            }
+          },
+          "correlations_calculate": {
+            "pearson": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.013461166200517315,
+                "Temperature_difference": -0.025333216097864597,
+                "Temperature_power": 0.7836111710279505,
+                "Power_wear": -0.24914367357131667,
+                "Air_temperature_K": 0.05681347782820738,
+                "Process_temperature_K": 0.05914395875389533,
+                "Torque_Nm": -0.8771188852554052,
+                "Power": -0.8154082573289517
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.013461166200517315,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": 0.01400718763683359,
+                "Temperature_power": 0.030626683796536942,
+                "Power_wear": 0.9428554904621871,
+                "Air_temperature_K": -0.0029726262040797925,
+                "Process_temperature_K": 0.005167388192672836,
+                "Torque_Nm": 0.0031448436163065024,
+                "Power": -0.014634814047405947
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.025333216097864597,
+                "Tool_wear_min": 0.01400718763683359,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.4443570000116564,
+                "Power_wear": 0.017442657485698485,
+                "Air_temperature_K": -0.6901573691029106,
+                "Process_temperature_K": -0.2674708446313375,
+                "Torque_Nm": 0.011349183633368431,
+                "Power": 8.528661005921339e-05
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.7836111710279505,
+                "Tool_wear_min": 0.030626683796536942,
+                "Temperature_difference": 0.4443570000116564,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.21660361539754064,
+                "Air_temperature_K": -0.26891125216851863,
+                "Process_temperature_K": -0.06856772928582944,
+                "Torque_Nm": -0.8215519732525426,
+                "Power": -0.8430612573763054
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.24914367357131667,
+                "Tool_wear_min": 0.9428554904621871,
+                "Temperature_difference": 0.017442657485698485,
+                "Temperature_power": -0.21660361539754064,
+                "Power_wear": 1.0,
+                "Air_temperature_K": -0.018655564004689026,
+                "Process_temperature_K": -0.01347657487347146,
+                "Torque_Nm": 0.28394160513130745,
+                "Power": 0.27209010520428356
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.05681347782820738,
+                "Tool_wear_min": -0.0029726262040797925,
+                "Temperature_difference": -0.6901573691029106,
+                "Temperature_power": -0.26891125216851863,
+                "Power_wear": -0.018655564004689026,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8818904536307604,
+                "Torque_Nm": -0.055396446213366146,
+                "Power": -0.04972492188978787
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": 0.05914395875389533,
+                "Tool_wear_min": 0.005167388192672836,
+                "Temperature_difference": -0.2674708446313375,
+                "Temperature_power": -0.06856772928582944,
+                "Power_wear": -0.01347657487347146,
+                "Air_temperature_K": 0.8818904536307604,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": -0.06636756466565905,
+                "Power": -0.0661541020097898
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.8771188852554052,
+                "Tool_wear_min": 0.0031448436163065024,
+                "Temperature_difference": 0.011349183633368431,
+                "Temperature_power": -0.8215519732525426,
+                "Power_wear": 0.28394160513130745,
+                "Air_temperature_K": -0.055396446213366146,
+                "Process_temperature_K": -0.06636756466565905,
+                "Torque_Nm": 1.0,
+                "Power": 0.980977383628853
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.8154082573289517,
+                "Tool_wear_min": -0.014634814047405947,
+                "Temperature_difference": 8.528661005921339e-05,
+                "Temperature_power": -0.8430612573763054,
+                "Power_wear": 0.27209010520428356,
+                "Air_temperature_K": -0.04972492188978787,
+                "Process_temperature_K": -0.0661541020097898,
+                "Torque_Nm": 0.980977383628853,
+                "Power": 1.0
+              }
+            },
+            "spearman": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.02029045753248843,
+                "Temperature_difference": -0.04102885108782769,
+                "Temperature_power": 0.7014443233664275,
+                "Power_wear": -0.2267448206061828,
+                "Air_temperature_K": 0.05618875205908695,
+                "Process_temperature_K": 0.0557430271733129,
+                "Torque_Nm": -0.925790305714268,
+                "Power": -0.8382946847496591
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.02029045753248843,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": 0.01468836880562649,
+                "Temperature_power": 0.026774550809252666,
+                "Power_wear": 0.9584470137319161,
+                "Air_temperature_K": 0.0007612194986577769,
+                "Process_temperature_K": 0.00642972329147942,
+                "Torque_Nm": -0.0017762652026254275,
+                "Power": -0.013520379511853916
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.04102885108782769,
+                "Tool_wear_min": 0.01468836880562649,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.48221357787483676,
+                "Power_wear": 0.018006242489025766,
+                "Air_temperature_K": -0.6996093617786444,
+                "Process_temperature_K": -0.2747699559593401,
+                "Torque_Nm": 0.014561766905424945,
+                "Power": 0.0014702544249246816
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.7014443233664275,
+                "Tool_wear_min": 0.026774550809252666,
+                "Temperature_difference": 0.48221357787483676,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.18405468207877942,
+                "Air_temperature_K": -0.3075931468434493,
+                "Process_temperature_K": -0.07915632381770082,
+                "Torque_Nm": -0.832317012579134,
+                "Power": -0.8544668474812569
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.2267448206061828,
+                "Tool_wear_min": 0.9584470137319161,
+                "Temperature_difference": 0.018006242489025766,
+                "Temperature_power": -0.18405468207877942,
+                "Power_wear": 1.0,
+                "Air_temperature_K": -0.007403657547237134,
+                "Process_temperature_K": -0.004127830595115558,
+                "Torque_Nm": 0.23564830884263183,
+                "Power": 0.22793414517729146
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.05618875205908695,
+                "Tool_wear_min": 0.0007612194986577769,
+                "Temperature_difference": -0.6996093617786444,
+                "Temperature_power": -0.3075931468434493,
+                "Power_wear": -0.007403657547237134,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8718409675411951,
+                "Torque_Nm": -0.04825286095483248,
+                "Power": -0.04068614556384063
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": 0.0557430271733129,
+                "Tool_wear_min": 0.00642972329147942,
+                "Temperature_difference": -0.2747699559593401,
+                "Temperature_power": -0.07915632381770082,
+                "Power_wear": -0.004127830595115558,
+                "Air_temperature_K": 0.8718409675411951,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": -0.06348958928425547,
+                "Power": -0.061705596266871145
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.925790305714268,
+                "Tool_wear_min": -0.0017762652026254275,
+                "Temperature_difference": 0.014561766905424945,
+                "Temperature_power": -0.832317012579134,
+                "Power_wear": 0.23564830884263183,
+                "Air_temperature_K": -0.04825286095483248,
+                "Process_temperature_K": -0.06348958928425547,
+                "Torque_Nm": 1.0,
+                "Power": 0.980827615639146
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.8382946847496591,
+                "Tool_wear_min": -0.013520379511853916,
+                "Temperature_difference": 0.0014702544249246816,
+                "Temperature_power": -0.8544668474812569,
+                "Power_wear": 0.22793414517729146,
+                "Air_temperature_K": -0.04068614556384063,
+                "Process_temperature_K": -0.061705596266871145,
+                "Torque_Nm": 0.980827615639146,
+                "Power": 1.0
+              }
+            },
+            "kendall": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.013675045989503143,
+                "Temperature_difference": -0.028468806997926942,
+                "Temperature_power": 0.5098923723237619,
+                "Power_wear": -0.1532917943969208,
+                "Air_temperature_K": 0.03765248265041455,
+                "Process_temperature_K": 0.03698028351328398,
+                "Torque_Nm": -0.7708251873037485,
+                "Power": -0.6510537422818556
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.013675045989503143,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": 0.009789373653871274,
+                "Temperature_power": 0.01767614779561813,
+                "Power_wear": 0.8374182175621797,
+                "Air_temperature_K": 0.0020818663136952065,
+                "Process_temperature_K": 0.003725788683403804,
+                "Torque_Nm": -0.0007434730658831025,
+                "Power": -0.008736854243444224
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.028468806997926942,
+                "Tool_wear_min": 0.009789373653871274,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.33786013477811516,
+                "Power_wear": 0.012202003703515374,
+                "Air_temperature_K": -0.4991101899545752,
+                "Process_temperature_K": -0.17599441740354765,
+                "Torque_Nm": 0.009953857132022296,
+                "Power": 0.0013054005006517936
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.5098923723237619,
+                "Tool_wear_min": 0.01767614779561813,
+                "Temperature_difference": 0.33786013477811516,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.12458566140955887,
+                "Air_temperature_K": -0.2091981534767121,
+                "Process_temperature_K": -0.05220936907566267,
+                "Torque_Nm": -0.6394864285376549,
+                "Power": -0.666586585440606
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.1532917943969208,
+                "Tool_wear_min": 0.8374182175621797,
+                "Temperature_difference": 0.012202003703515374,
+                "Temperature_power": -0.12458566140955887,
+                "Power_wear": 1.0,
+                "Air_temperature_K": -0.003975194101609672,
+                "Process_temperature_K": -0.0030829212797154103,
+                "Torque_Nm": 0.1608650960991832,
+                "Power": 0.15566452444623816
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.03765248265041455,
+                "Tool_wear_min": 0.0020818663136952065,
+                "Temperature_difference": -0.4991101899545752,
+                "Temperature_power": -0.2091981534767121,
+                "Power_wear": -0.003975194101609672,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.6947236945053229,
+                "Torque_Nm": -0.03243763158134386,
+                "Power": -0.027613676693105868
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": 0.03698028351328398,
+                "Tool_wear_min": 0.003725788683403804,
+                "Temperature_difference": -0.17599441740354765,
+                "Temperature_power": -0.05220936907566267,
+                "Power_wear": -0.0030829212797154103,
+                "Air_temperature_K": 0.6947236945053229,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": -0.0423189685003327,
+                "Power": -0.041310804174395345
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.7708251873037485,
+                "Tool_wear_min": -0.0007434730658831025,
+                "Temperature_difference": 0.009953857132022296,
+                "Temperature_power": -0.6394864285376549,
+                "Power_wear": 0.1608650960991832,
+                "Air_temperature_K": -0.03243763158134386,
+                "Process_temperature_K": -0.0423189685003327,
+                "Torque_Nm": 1.0,
+                "Power": 0.8826282566951188
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.6510537422818556,
+                "Tool_wear_min": -0.008736854243444224,
+                "Temperature_difference": 0.0013054005006517936,
+                "Temperature_power": -0.666586585440606,
+                "Power_wear": 0.15566452444623816,
+                "Air_temperature_K": -0.027613676693105868,
+                "Process_temperature_K": -0.041310804174395345,
+                "Torque_Nm": 0.8826282566951188,
+                "Power": 1.0
+              }
+            },
+            "cramer_v": {
+              "Type_M": {
+                "Type_M": 1.0,
+                "Type_L": 0.8086363915974488
+              },
+              "Type_L": {
+                "Type_M": 0.8086363915974488,
+                "Type_L": 1.0
+              }
+            }
+          }
+        },
+        "reference": {
+          "type": "evidently.metrics.data_quality.dataset_correlations_metric.DatasetCorrelation",
+          "correlation": {
+            "pearson": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.013875764991206983,
+                "Temperature_difference": -0.04079977553524978,
+                "Temperature_power": 0.7281013017043967,
+                "Power_wear": -0.22246778508298362,
+                "Air_temperature_K": 0.009537968551280232,
+                "Process_temperature_K": -0.015487855565963937,
+                "Torque_Nm": -0.8593218339719183,
+                "Power": -0.7781405131541232
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.013875764991206983,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": -0.07717951421111645,
+                "Temperature_power": -0.04568987636148658,
+                "Power_wear": 0.9494306335190007,
+                "Air_temperature_K": 0.023846277741429302,
+                "Process_temperature_K": -0.021405163757415375,
+                "Torque_Nm": 0.013540484867461886,
+                "Power": 0.01035814059063612
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.04079977553524978,
+                "Tool_wear_min": -0.07717951421111645,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.4817779686965226,
+                "Power_wear": -0.07143457219784213,
+                "Air_temperature_K": -0.7042009037109699,
+                "Process_temperature_K": -0.26015089468364205,
+                "Torque_Nm": 0.004650509977361669,
+                "Power": 0.0036544854637184996
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.7281013017043967,
+                "Tool_wear_min": -0.04568987636148658,
+                "Temperature_difference": 0.4817779686965226,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.27042344737762897,
+                "Air_temperature_K": -0.3713236562593146,
+                "Process_temperature_K": -0.16892851491311905,
+                "Torque_Nm": -0.8297135393709187,
+                "Power": -0.8433189212338741
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.22246778508298362,
+                "Tool_wear_min": 0.9494306335190007,
+                "Temperature_difference": -0.07143457219784213,
+                "Temperature_power": -0.27042344737762897,
+                "Power_wear": 1.0,
+                "Air_temperature_K": 0.029429935871505386,
+                "Process_temperature_K": -0.00980438193977636,
+                "Torque_Nm": 0.27986178342138907,
+                "Power": 0.28173820948982314
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.009537968551280232,
+                "Tool_wear_min": 0.023846277741429302,
+                "Temperature_difference": -0.7042009037109699,
+                "Temperature_power": -0.3713236562593146,
+                "Power_wear": 0.029429935871505386,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8687524958030135,
+                "Torque_Nm": 0.040975287792006994,
+                "Power": 0.04595995695062019
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": -0.015487855565963937,
+                "Tool_wear_min": -0.021405163757415375,
+                "Temperature_difference": -0.26015089468364205,
+                "Temperature_power": -0.16892851491311905,
+                "Power_wear": -0.00980438193977636,
+                "Air_temperature_K": 0.8687524958030135,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": 0.05896835115636293,
+                "Power": 0.06505251246428163
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.8593218339719183,
+                "Tool_wear_min": 0.013540484867461886,
+                "Temperature_difference": 0.004650509977361669,
+                "Temperature_power": -0.8297135393709187,
+                "Power_wear": 0.27986178342138907,
+                "Air_temperature_K": 0.040975287792006994,
+                "Process_temperature_K": 0.05896835115636293,
+                "Torque_Nm": 1.0,
+                "Power": 0.977580564570608
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.7781405131541232,
+                "Tool_wear_min": 0.01035814059063612,
+                "Temperature_difference": 0.0036544854637184996,
+                "Temperature_power": -0.8433189212338741,
+                "Power_wear": 0.28173820948982314,
+                "Air_temperature_K": 0.04595995695062019,
+                "Process_temperature_K": 0.06505251246428163,
+                "Torque_Nm": 0.977580564570608,
+                "Power": 1.0
+              }
+            },
+            "spearman": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.022963833176991615,
+                "Temperature_difference": -0.0033780300546318925,
+                "Temperature_power": 0.6716016412383462,
+                "Power_wear": -0.21393145889715431,
+                "Air_temperature_K": -0.024817355295318793,
+                "Process_temperature_K": -0.037110954160650196,
+                "Torque_Nm": -0.907976337945909,
+                "Power": -0.8002498957709996
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.022963833176991615,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": -0.07063065903968851,
+                "Temperature_power": -0.04967470681469169,
+                "Power_wear": 0.9625786280939354,
+                "Air_temperature_K": 0.031201107073899573,
+                "Process_temperature_K": -0.007822528743177197,
+                "Torque_Nm": 0.011090295863239468,
+                "Power": 0.006917702698004892
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.0033780300546318925,
+                "Tool_wear_min": -0.07063065903968851,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.5071111750656859,
+                "Power_wear": -0.0645120951158197,
+                "Air_temperature_K": -0.7051813976806394,
+                "Process_temperature_K": -0.258689128811773,
+                "Torque_Nm": -0.002272942913852773,
+                "Power": -0.006347458078113708
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.6716016412383462,
+                "Tool_wear_min": -0.04967470681469169,
+                "Temperature_difference": 0.5071111750656859,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.24476547433916568,
+                "Air_temperature_K": -0.4137858183728706,
+                "Process_temperature_K": -0.20143053721148046,
+                "Torque_Nm": -0.818628852310226,
+                "Power": -0.841172403978128
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.21393145889715431,
+                "Tool_wear_min": 0.9625786280939354,
+                "Temperature_difference": -0.0645120951158197,
+                "Temperature_power": -0.24476547433916568,
+                "Power_wear": 1.0,
+                "Air_temperature_K": 0.031062221910651784,
+                "Process_temperature_K": -0.002717709734041002,
+                "Torque_Nm": 0.2387674257046215,
+                "Power": 0.23920910762365227
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": -0.024817355295318793,
+                "Tool_wear_min": 0.031201107073899573,
+                "Temperature_difference": -0.7051813976806394,
+                "Temperature_power": -0.4137858183728706,
+                "Power_wear": 0.031062221910651784,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8573310664489763,
+                "Torque_Nm": 0.04583284943168646,
+                "Power": 0.054546208611099
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": -0.037110954160650196,
+                "Tool_wear_min": -0.007822528743177197,
+                "Temperature_difference": -0.258689128811773,
+                "Temperature_power": -0.20143053721148046,
+                "Power_wear": -0.002717709734041002,
+                "Air_temperature_K": 0.8573310664489763,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": 0.06265721453943078,
+                "Power": 0.07205286834572462
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.907976337945909,
+                "Tool_wear_min": 0.011090295863239468,
+                "Temperature_difference": -0.002272942913852773,
+                "Temperature_power": -0.818628852310226,
+                "Power_wear": 0.2387674257046215,
+                "Air_temperature_K": 0.04583284943168646,
+                "Process_temperature_K": 0.06265721453943078,
+                "Torque_Nm": 1.0,
+                "Power": 0.975555103766705
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.8002498957709996,
+                "Tool_wear_min": 0.006917702698004892,
+                "Temperature_difference": -0.006347458078113708,
+                "Temperature_power": -0.841172403978128,
+                "Power_wear": 0.23920910762365227,
+                "Air_temperature_K": 0.054546208611099,
+                "Process_temperature_K": 0.07205286834572462,
+                "Torque_Nm": 0.975555103766705,
+                "Power": 1.0
+              }
+            },
+            "kendall": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.015848572193650774,
+                "Temperature_difference": -0.0015024989736090184,
+                "Temperature_power": 0.483940031399511,
+                "Power_wear": -0.1443617460575656,
+                "Air_temperature_K": -0.016438116001819027,
+                "Process_temperature_K": -0.02549932685959271,
+                "Torque_Nm": -0.7425064203294308,
+                "Power": -0.6095636240009785
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.015848572193650774,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": -0.0477353672245446,
+                "Temperature_power": -0.033360841516720384,
+                "Power_wear": 0.842936981774069,
+                "Air_temperature_K": 0.021585921107910255,
+                "Process_temperature_K": -0.0045656998737693055,
+                "Torque_Nm": 0.0073827826927021795,
+                "Power": 0.004524803041506769
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.0015024989736090184,
+                "Tool_wear_min": -0.0477353672245446,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.3599215075928824,
+                "Power_wear": -0.043185630819613186,
+                "Air_temperature_K": -0.5059433001545982,
+                "Process_temperature_K": -0.1639408134062707,
+                "Torque_Nm": -0.0015336714424419536,
+                "Power": -0.004967049529824935
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.483940031399511,
+                "Tool_wear_min": -0.033360841516720384,
+                "Temperature_difference": 0.3599215075928824,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.1665640551727025,
+                "Air_temperature_K": -0.2833082078264979,
+                "Process_temperature_K": -0.13542593812344672,
+                "Torque_Nm": -0.6242552053004107,
+                "Power": -0.6510655294076849
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.1443617460575656,
+                "Tool_wear_min": 0.842936981774069,
+                "Temperature_difference": -0.043185630819613186,
+                "Temperature_power": -0.1665640551727025,
+                "Power_wear": 1.0,
+                "Air_temperature_K": 0.021720563893533468,
+                "Process_temperature_K": -0.0010454239158506694,
+                "Torque_Nm": 0.16288252460511146,
+                "Power": 0.16339606298485354
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": -0.016438116001819027,
+                "Tool_wear_min": 0.021585921107910255,
+                "Temperature_difference": -0.5059433001545982,
+                "Temperature_power": -0.2833082078264979,
+                "Power_wear": 0.021720563893533468,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.6762609226453585,
+                "Torque_Nm": 0.030889424914994575,
+                "Power": 0.03705853824587354
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": -0.02549932685959271,
+                "Tool_wear_min": -0.0045656998737693055,
+                "Temperature_difference": -0.1639408134062707,
+                "Temperature_power": -0.13542593812344672,
+                "Power_wear": -0.0010454239158506694,
+                "Air_temperature_K": 0.6762609226453585,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": 0.04239043481569889,
+                "Power": 0.04884791822680417
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.7425064203294308,
+                "Tool_wear_min": 0.0073827826927021795,
+                "Temperature_difference": -0.0015336714424419536,
+                "Temperature_power": -0.6242552053004107,
+                "Power_wear": 0.16288252460511146,
+                "Air_temperature_K": 0.030889424914994575,
+                "Process_temperature_K": 0.04239043481569889,
+                "Torque_Nm": 1.0,
+                "Power": 0.8695294267751833
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.6095636240009785,
+                "Tool_wear_min": 0.004524803041506769,
+                "Temperature_difference": -0.004967049529824935,
+                "Temperature_power": -0.6510655294076849,
+                "Power_wear": 0.16339606298485354,
+                "Air_temperature_K": 0.03705853824587354,
+                "Process_temperature_K": 0.04884791822680417,
+                "Torque_Nm": 0.8695294267751833,
+                "Power": 1.0
+              }
+            },
+            "cramer_v": {
+              "Type_M": {
+                "Type_M": 1.0,
+                "Type_L": 0.8015140138954677
+              },
+              "Type_L": {
+                "Type_M": 0.8015140138954677,
+                "Type_L": 1.0
+              }
+            }
+          },
+          "stats": {
+            "pearson": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.977580564570608,
+              "abs_max_features_correlation": 0.977580564570608
+            },
+            "spearman": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.975555103766705,
+              "abs_max_features_correlation": 0.975555103766705
+            },
+            "kendall": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.8695294267751833,
+              "abs_max_features_correlation": 0.8695294267751833
+            },
+            "cramer_v": {
+              "type": "evidently.metrics.data_quality.dataset_correlations_metric.CorrelationStats",
+              "target_prediction_correlation": null,
+              "abs_max_target_features_correlation": null,
+              "abs_max_prediction_features_correlation": null,
+              "abs_max_correlation": 0.8015140138954677,
+              "abs_max_features_correlation": 0.8015140138954677
+            }
+          },
+          "correlations_calculate": {
+            "pearson": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.013875764991206983,
+                "Temperature_difference": -0.04079977553524978,
+                "Temperature_power": 0.7281013017043967,
+                "Power_wear": -0.22246778508298362,
+                "Air_temperature_K": 0.009537968551280232,
+                "Process_temperature_K": -0.015487855565963937,
+                "Torque_Nm": -0.8593218339719183,
+                "Power": -0.7781405131541232
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.013875764991206983,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": -0.07717951421111645,
+                "Temperature_power": -0.04568987636148658,
+                "Power_wear": 0.9494306335190007,
+                "Air_temperature_K": 0.023846277741429302,
+                "Process_temperature_K": -0.021405163757415375,
+                "Torque_Nm": 0.013540484867461886,
+                "Power": 0.01035814059063612
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.04079977553524978,
+                "Tool_wear_min": -0.07717951421111645,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.4817779686965226,
+                "Power_wear": -0.07143457219784213,
+                "Air_temperature_K": -0.7042009037109699,
+                "Process_temperature_K": -0.26015089468364205,
+                "Torque_Nm": 0.004650509977361669,
+                "Power": 0.0036544854637184996
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.7281013017043967,
+                "Tool_wear_min": -0.04568987636148658,
+                "Temperature_difference": 0.4817779686965226,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.27042344737762897,
+                "Air_temperature_K": -0.3713236562593146,
+                "Process_temperature_K": -0.16892851491311905,
+                "Torque_Nm": -0.8297135393709187,
+                "Power": -0.8433189212338741
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.22246778508298362,
+                "Tool_wear_min": 0.9494306335190007,
+                "Temperature_difference": -0.07143457219784213,
+                "Temperature_power": -0.27042344737762897,
+                "Power_wear": 1.0,
+                "Air_temperature_K": 0.029429935871505386,
+                "Process_temperature_K": -0.00980438193977636,
+                "Torque_Nm": 0.27986178342138907,
+                "Power": 0.28173820948982314
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": 0.009537968551280232,
+                "Tool_wear_min": 0.023846277741429302,
+                "Temperature_difference": -0.7042009037109699,
+                "Temperature_power": -0.3713236562593146,
+                "Power_wear": 0.029429935871505386,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8687524958030135,
+                "Torque_Nm": 0.040975287792006994,
+                "Power": 0.04595995695062019
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": -0.015487855565963937,
+                "Tool_wear_min": -0.021405163757415375,
+                "Temperature_difference": -0.26015089468364205,
+                "Temperature_power": -0.16892851491311905,
+                "Power_wear": -0.00980438193977636,
+                "Air_temperature_K": 0.8687524958030135,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": 0.05896835115636293,
+                "Power": 0.06505251246428163
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.8593218339719183,
+                "Tool_wear_min": 0.013540484867461886,
+                "Temperature_difference": 0.004650509977361669,
+                "Temperature_power": -0.8297135393709187,
+                "Power_wear": 0.27986178342138907,
+                "Air_temperature_K": 0.040975287792006994,
+                "Process_temperature_K": 0.05896835115636293,
+                "Torque_Nm": 1.0,
+                "Power": 0.977580564570608
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.7781405131541232,
+                "Tool_wear_min": 0.01035814059063612,
+                "Temperature_difference": 0.0036544854637184996,
+                "Temperature_power": -0.8433189212338741,
+                "Power_wear": 0.28173820948982314,
+                "Air_temperature_K": 0.04595995695062019,
+                "Process_temperature_K": 0.06505251246428163,
+                "Torque_Nm": 0.977580564570608,
+                "Power": 1.0
+              }
+            },
+            "spearman": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.022963833176991615,
+                "Temperature_difference": -0.0033780300546318925,
+                "Temperature_power": 0.6716016412383462,
+                "Power_wear": -0.21393145889715431,
+                "Air_temperature_K": -0.024817355295318793,
+                "Process_temperature_K": -0.037110954160650196,
+                "Torque_Nm": -0.907976337945909,
+                "Power": -0.8002498957709996
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.022963833176991615,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": -0.07063065903968851,
+                "Temperature_power": -0.04967470681469169,
+                "Power_wear": 0.9625786280939354,
+                "Air_temperature_K": 0.031201107073899573,
+                "Process_temperature_K": -0.007822528743177197,
+                "Torque_Nm": 0.011090295863239468,
+                "Power": 0.006917702698004892
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.0033780300546318925,
+                "Tool_wear_min": -0.07063065903968851,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.5071111750656859,
+                "Power_wear": -0.0645120951158197,
+                "Air_temperature_K": -0.7051813976806394,
+                "Process_temperature_K": -0.258689128811773,
+                "Torque_Nm": -0.002272942913852773,
+                "Power": -0.006347458078113708
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.6716016412383462,
+                "Tool_wear_min": -0.04967470681469169,
+                "Temperature_difference": 0.5071111750656859,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.24476547433916568,
+                "Air_temperature_K": -0.4137858183728706,
+                "Process_temperature_K": -0.20143053721148046,
+                "Torque_Nm": -0.818628852310226,
+                "Power": -0.841172403978128
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.21393145889715431,
+                "Tool_wear_min": 0.9625786280939354,
+                "Temperature_difference": -0.0645120951158197,
+                "Temperature_power": -0.24476547433916568,
+                "Power_wear": 1.0,
+                "Air_temperature_K": 0.031062221910651784,
+                "Process_temperature_K": -0.002717709734041002,
+                "Torque_Nm": 0.2387674257046215,
+                "Power": 0.23920910762365227
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": -0.024817355295318793,
+                "Tool_wear_min": 0.031201107073899573,
+                "Temperature_difference": -0.7051813976806394,
+                "Temperature_power": -0.4137858183728706,
+                "Power_wear": 0.031062221910651784,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.8573310664489763,
+                "Torque_Nm": 0.04583284943168646,
+                "Power": 0.054546208611099
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": -0.037110954160650196,
+                "Tool_wear_min": -0.007822528743177197,
+                "Temperature_difference": -0.258689128811773,
+                "Temperature_power": -0.20143053721148046,
+                "Power_wear": -0.002717709734041002,
+                "Air_temperature_K": 0.8573310664489763,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": 0.06265721453943078,
+                "Power": 0.07205286834572462
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.907976337945909,
+                "Tool_wear_min": 0.011090295863239468,
+                "Temperature_difference": -0.002272942913852773,
+                "Temperature_power": -0.818628852310226,
+                "Power_wear": 0.2387674257046215,
+                "Air_temperature_K": 0.04583284943168646,
+                "Process_temperature_K": 0.06265721453943078,
+                "Torque_Nm": 1.0,
+                "Power": 0.975555103766705
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.8002498957709996,
+                "Tool_wear_min": 0.006917702698004892,
+                "Temperature_difference": -0.006347458078113708,
+                "Temperature_power": -0.841172403978128,
+                "Power_wear": 0.23920910762365227,
+                "Air_temperature_K": 0.054546208611099,
+                "Process_temperature_K": 0.07205286834572462,
+                "Torque_Nm": 0.975555103766705,
+                "Power": 1.0
+              }
+            },
+            "kendall": {
+              "Rotational_speed_rpm": {
+                "Rotational_speed_rpm": 1.0,
+                "Tool_wear_min": -0.015848572193650774,
+                "Temperature_difference": -0.0015024989736090184,
+                "Temperature_power": 0.483940031399511,
+                "Power_wear": -0.1443617460575656,
+                "Air_temperature_K": -0.016438116001819027,
+                "Process_temperature_K": -0.02549932685959271,
+                "Torque_Nm": -0.7425064203294308,
+                "Power": -0.6095636240009785
+              },
+              "Tool_wear_min": {
+                "Rotational_speed_rpm": -0.015848572193650774,
+                "Tool_wear_min": 1.0,
+                "Temperature_difference": -0.0477353672245446,
+                "Temperature_power": -0.033360841516720384,
+                "Power_wear": 0.842936981774069,
+                "Air_temperature_K": 0.021585921107910255,
+                "Process_temperature_K": -0.0045656998737693055,
+                "Torque_Nm": 0.0073827826927021795,
+                "Power": 0.004524803041506769
+              },
+              "Temperature_difference": {
+                "Rotational_speed_rpm": -0.0015024989736090184,
+                "Tool_wear_min": -0.0477353672245446,
+                "Temperature_difference": 1.0,
+                "Temperature_power": 0.3599215075928824,
+                "Power_wear": -0.043185630819613186,
+                "Air_temperature_K": -0.5059433001545982,
+                "Process_temperature_K": -0.1639408134062707,
+                "Torque_Nm": -0.0015336714424419536,
+                "Power": -0.004967049529824935
+              },
+              "Temperature_power": {
+                "Rotational_speed_rpm": 0.483940031399511,
+                "Tool_wear_min": -0.033360841516720384,
+                "Temperature_difference": 0.3599215075928824,
+                "Temperature_power": 1.0,
+                "Power_wear": -0.1665640551727025,
+                "Air_temperature_K": -0.2833082078264979,
+                "Process_temperature_K": -0.13542593812344672,
+                "Torque_Nm": -0.6242552053004107,
+                "Power": -0.6510655294076849
+              },
+              "Power_wear": {
+                "Rotational_speed_rpm": -0.1443617460575656,
+                "Tool_wear_min": 0.842936981774069,
+                "Temperature_difference": -0.043185630819613186,
+                "Temperature_power": -0.1665640551727025,
+                "Power_wear": 1.0,
+                "Air_temperature_K": 0.021720563893533468,
+                "Process_temperature_K": -0.0010454239158506694,
+                "Torque_Nm": 0.16288252460511146,
+                "Power": 0.16339606298485354
+              },
+              "Air_temperature_K": {
+                "Rotational_speed_rpm": -0.016438116001819027,
+                "Tool_wear_min": 0.021585921107910255,
+                "Temperature_difference": -0.5059433001545982,
+                "Temperature_power": -0.2833082078264979,
+                "Power_wear": 0.021720563893533468,
+                "Air_temperature_K": 1.0,
+                "Process_temperature_K": 0.6762609226453585,
+                "Torque_Nm": 0.030889424914994575,
+                "Power": 0.03705853824587354
+              },
+              "Process_temperature_K": {
+                "Rotational_speed_rpm": -0.02549932685959271,
+                "Tool_wear_min": -0.0045656998737693055,
+                "Temperature_difference": -0.1639408134062707,
+                "Temperature_power": -0.13542593812344672,
+                "Power_wear": -0.0010454239158506694,
+                "Air_temperature_K": 0.6762609226453585,
+                "Process_temperature_K": 1.0,
+                "Torque_Nm": 0.04239043481569889,
+                "Power": 0.04884791822680417
+              },
+              "Torque_Nm": {
+                "Rotational_speed_rpm": -0.7425064203294308,
+                "Tool_wear_min": 0.0073827826927021795,
+                "Temperature_difference": -0.0015336714424419536,
+                "Temperature_power": -0.6242552053004107,
+                "Power_wear": 0.16288252460511146,
+                "Air_temperature_K": 0.030889424914994575,
+                "Process_temperature_K": 0.04239043481569889,
+                "Torque_Nm": 1.0,
+                "Power": 0.8695294267751833
+              },
+              "Power": {
+                "Rotational_speed_rpm": -0.6095636240009785,
+                "Tool_wear_min": 0.004524803041506769,
+                "Temperature_difference": -0.004967049529824935,
+                "Temperature_power": -0.6510655294076849,
+                "Power_wear": 0.16339606298485354,
+                "Air_temperature_K": 0.03705853824587354,
+                "Process_temperature_K": 0.04884791822680417,
+                "Torque_Nm": 0.8695294267751833,
+                "Power": 1.0
+              }
+            },
+            "cramer_v": {
+              "Type_M": {
+                "Type_M": 1.0,
+                "Type_L": 0.8015140138954677
+              },
+              "Type_L": {
+                "Type_M": 0.8015140138954677,
+                "Type_L": 1.0
+              }
+            }
+          }
+        },
+        "target_correlation": null
+      }
+    ],
+    "tests": [],
+    "test_results": [],
+    "options": {
+      "color": null,
+      "render": null,
+      "custom": {}
+    },
+    "data_definition": {
+      "columns": {
+        "Rotational_speed_rpm": {
+          "column_name": "Rotational_speed_rpm",
+          "column_type": "num"
+        },
+        "Tool_wear_min": {
+          "column_name": "Tool_wear_min",
+          "column_type": "num"
+        },
+        "Temperature_difference": {
+          "column_name": "Temperature_difference",
+          "column_type": "num"
+        },
+        "Temperature_power": {
+          "column_name": "Temperature_power",
+          "column_type": "num"
+        },
+        "Power_wear": {
+          "column_name": "Power_wear",
+          "column_type": "num"
+        },
+        "Air_temperature_K": {
+          "column_name": "Air_temperature_K",
+          "column_type": "num"
+        },
+        "Process_temperature_K": {
+          "column_name": "Process_temperature_K",
+          "column_type": "num"
+        },
+        "Torque_Nm": {
+          "column_name": "Torque_Nm",
+          "column_type": "num"
+        },
+        "Power": {
+          "column_name": "Power",
+          "column_type": "num"
+        },
+        "Type_M": {
+          "column_name": "Type_M",
+          "column_type": "cat"
+        },
+        "Type_L": {
+          "column_name": "Type_L",
+          "column_type": "cat"
+        }
+      },
+      "target": null,
+      "prediction_columns": null,
+      "id_column": null,
+      "datetime_column": null,
+      "embeddings": null,
+      "user_id": null,
+      "item_id": null,
+      "task": null,
+      "classification_labels": null,
+      "reference_present": true,
+      "recommendations_type": "score"
+    }
+  },
+  "metrics_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "test_ids": [],
+  "options": {
+    "color": null,
+    "render": null,
+    "custom": {}
+  }
+}
