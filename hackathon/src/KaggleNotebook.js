@@ -4,17 +4,15 @@ function KaggleNotebook() {
   return (
 <div>
   <Navbar/>
-<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <iframe 
-        src="https://www.kaggle.com/embed/carlkirstein/predictive-maintenance-milling-multiclass-99-4?kernelSessionId=110968881" 
-        title="Predictive Maintenance, Milling - Multiclass 99.4%" 
-        width="950" 
-        height="800" 
-        frameborder="0" 
-        scrolling="auto" 
-        style={{ maxWidth: '100%' }}
-      />
-    </div>
+  <div className="dashboard  bg-white text-white flex justify-center items-center h-screen overflow-hidden">
+  <iframe
+    src="https://www.kaggle.com/embed/carlkirstein/predictive-maintenance-milling-multiclass-99-4?kernelSessionId=110968881"
+    title="Predictive Maintenance for milling machine"
+    className="border mt-20 rounded-lg shadow-md overflow-auto w-full h-full max-w-3xl max-h-3xl"
+    allowFullScreen
+  ></iframe>
+</div>
+
 </div>
   );
 }
