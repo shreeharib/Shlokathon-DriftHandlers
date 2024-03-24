@@ -1,34 +1,9 @@
-// import React, { useEffect } from "react";
-// import iFrameResizer from "iframe-resizer/js/iframeResizer";
 
-// function LookerDashboard() {
-//   const dashboardUrl = "https://lookerstudio.google.com/embed/reporting/c9cabae9-5998-4b1f-8367-03cdb1ccb32c/page/QJ3rD";
-
-//   useEffect(() => {
-//     const iframe = document.getElementById("myIframe");
-//     iFrameResizer({ log: true, checkOrigin: false }, iframe);
-//   }, []);
-
-//   return (
-//     <div className="dashboard">
-//       <iframe
-//         id="myIframe"
-//         title="My Dashboard"
-//         src={dashboardUrl}
-//         frameBorder="0"
-//         style={{ border: "none", overflow: "hidden" }}
-//         allowFullScreen
-//         sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
-//       ></iframe>
-//     </div>
-//   );
-// }
-
-// export default LookerDashboard;
 import React, { useEffect } from "react";
 import iFrameResizer from "iframe-resizer/js/iframeResizer";
 import './index.css';
 import Navbar from "./Navbar";
+
 
 function LookerDashboard() {
   const dashboardUrl = "https://lookerstudio.google.com/embed/reporting/c9cabae9-5998-4b1f-8367-03cdb1ccb32c/page/QJ3rD";
@@ -41,17 +16,18 @@ function LookerDashboard() {
   return (
     <div>
       <Navbar/>
-    <div className="dashboard  flex justify-center items-center h-screen">
-      <iframe
-        id="myIframe"
-        title="My Dashboard"
-        src={dashboardUrl}
-        frameBorder="0"
-        className="border-none overflow-hidden transition-all duration-500 ease-in-out transform hover:scale-105 w-3/4 h-3/4"
-        allowFullScreen
-        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
-      ></iframe>
-    </div>
+<div className="dashboard flex justify-center items-center h-screen bg-gradient-to-br from-gray-900 to-gray-800 overflow-hidden">
+  <iframe
+    id="myIframe"
+    title="My Dashboard"
+    src={dashboardUrl}
+    className="border-none mt-20 w-5/6 h-5/6 rounded-3xl shadow-xl"
+    allowFullScreen
+    sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+  ></iframe>
+</div>
+
+
     <div className="h-screen bg-black flex items-center justify-center">
     <div className="container mx-auto p-8">
             <div className="bg-white shadow-md rounded-lg p-6">

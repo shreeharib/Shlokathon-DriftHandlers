@@ -103,16 +103,19 @@ import {Route, Routes} from 'react-router-dom'
 import Home from './Home';
 import LookerDashboard from './LookerDashboard';
 import NewDashboard from './NewDashboard';
+import KaggleNotebook from './KaggleNotebook';
 function App() {
   return (
     <div>
       <Routes>
-      <Route path='/Home' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/predictionss' element={<PredictiveMaintenance/>}/>
       <Route path='/dashboard' element={<LookerDashboard/>}/>
       <Route path='/datadrift' element={<Datadrift/>}/>
       <Route path='/realtimepredictions' element={<NewDashboard/>}/>
+      <Route path='/notebook' element={ <KaggleNotebook/>}/>
       </Routes>
+     
     </div>
   )
 }
